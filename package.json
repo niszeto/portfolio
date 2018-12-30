@@ -1,0 +1,26 @@
+{
+  "name": "portfoliowebsite",
+  "version": "1.0.0",
+  "description": "Nicholas Szeto Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niszeto/portfolioWebsite.git"
+  },
+  "author": "Nicholas Szeto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niszeto/portfolioWebsite/issues"
+  },
+  "homepage": "https://github.com/niszeto/portfolioWebsite#readme",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
