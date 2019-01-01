@@ -1,32 +1,25 @@
-import Navbar from "../components/Navbar";
+import Layout from "../components/Layout";
+import Sidebar from "../components/SideBar";
 
 const Index = () => {
   return (
-    <div className="mainContainer">
-      <Navbar />
-
-      <div className="contentContainer">
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed deleniti
-          totam recusandae, alias soluta odio dolores unde temporibus amet modi
-          voluptas porro ullam! Illum voluptatum debitis voluptatibus dolor!
-          Corporis, adipisci.
-        </p>
-      </div>
+    <Layout>
+      <Sidebar />
+      {/* <div className="content-container" /> */}
 
       <style jsx>{`
-        .mainContainer {
+        .main-container {
+          display: flex;
+          flex: 1;
+          margin: 0;
+          padding: 0;
         }
 
-        .contentContainer {
+        .content-container {
           margin-left: 26%;
         }
-
-        p {
-          color: red;
-        }
       `}</style>
-    </div>
+    </Layout>
   );
 };
 

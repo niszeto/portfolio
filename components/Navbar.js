@@ -2,10 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="sideBarContainer">
-      <div className="avatarContainer">
-        <b>Nicholas Szeto</b>
-      </div>
+    <div className="navbar-container">
       <div className="redirectLinkContainer">
         <a>About</a>
         <a>Skills</a>
@@ -16,36 +13,31 @@ const Navbar = () => {
         <a>Resume</a>
       </div>
 
-      <div className="iconLinkContainer">
-        <button>Email</button>
-        <button>Github</button>
-        <button>LinkedIn</button>
-      </div>
       <style jsx>
         {`
-          .sideBarContainer {
-            width: 25%;
-            background-color: #f1f1f1;
-            position: fixed;
-            height: 100%;
-            overflow: auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: spaced-evenly;
+          .navbar-container {
+            flex: 1;
+            background-color: white;
           }
-
-          .avatarContainer {
-            width: 200px;
-            height: 30%;
-          }
-
           .redirectLinkContainer {
             display: flex;
             flex-direction: column;
-            background: red;
           }
 
-          .iconLinkContainer {
+          .redirectLinkContainer a {
+            display: block;
+            color: black;
+            padding: 10px;
+          }
+
+          .redirectLinkContainer a.active {
+            background-color: #4caf50;
+            color: white;
+          }
+
+          .redirectLinkContainer a:hover:not(.active) {
+            background-color: #555;
+            color: white;
           }
         `}
       </style>
