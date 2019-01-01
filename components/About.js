@@ -3,7 +3,7 @@ import Banner from "./Banner";
 const About = props => {
   return (
     <div>
-      <Banner text="about" />
+      <Banner text="About" />
       <p>{props.text}</p>
       <style jsx>{`
         p {

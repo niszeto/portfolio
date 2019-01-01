@@ -9,10 +9,11 @@ const aboutText =
 const Index = () => {
   return (
     <Layout>
-      {/* <Sidebar /> */}
-      {/* <div className="content-container" /> */}
-      <About text={aboutText} />
-      <Experience />
+      <Sidebar />
+      <div className="content-container">
+        <About text={aboutText} />
+        <Experience />
+      </div>
       <style jsx>{`
         .main-container {
           display: flex;

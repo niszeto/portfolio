@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+const Description = props => {
+  const { description, key } = props;
 
-export default class Description extends Component {
-  render() {
-    return <div />;
-  }
-}
+  return <li key={key}> {description}</li>;
+};
+
+export default Description;
