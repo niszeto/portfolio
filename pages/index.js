@@ -1,6 +1,7 @@
 import Layout from "../components/Layout";
 import Sidebar from "../components/SideBar";
 import About from "../components/About";
+import Experience from "../components/Experience";
 
 const aboutText =
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dicta adipisci labore aperiam et, perferendis laudantium nesciunt illo? Commodi provident veniam ullam molestias nobis eum consectetur officia?Sapiente, iusto magnam!";
@@ -11,7 +12,7 @@ const Index = () => {
       {/* <Sidebar /> */}
       {/* <div className="content-container" /> */}
       <About text={aboutText} />
-
+      <Experience />
       <style jsx>{`
         .main-container {
           display: flex;
