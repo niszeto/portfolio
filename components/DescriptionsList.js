@@ -7,7 +7,7 @@ export default class DescriptionsList extends React.Component {
     return (
       <ul>
         {descriptions.map((description, index) => {
-          return <Description description={description} key={index} />;
+          return <Description description={description} key={index} id={index} />;
         })}
         <style jsx>{`
           ul {

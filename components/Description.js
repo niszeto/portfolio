@@ -1,7 +1,7 @@
 const Description = props => {
-  const { description, key } = props;
+  const { description } = props;
 
-  return <li key={key}> {description}</li>;
+  return <li> {description}</li>;
 };
 
 export default Description;

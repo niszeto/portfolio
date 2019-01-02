@@ -7,7 +7,7 @@ const Experience = props => {
     <div className="experience-container">
       <Banner text="Experience" />
       {ExperienceData.map((experience, index) => {
-        return <ExperienceCard data={experience} id={index} />;
+        return <ExperienceCard data={experience} key={index} id={index} />;
       })}
       <style jsx>{``}</style>
     </div>

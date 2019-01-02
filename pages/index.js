@@ -2,6 +2,7 @@ import Layout from "../components/Layout";
 import Sidebar from "../components/SideBar";
 import About from "../components/About";
 import Experience from "../components/Experience";
+import Contact from "../components/Contact";
 
 const Index = () => {
   return (
@@ -10,6 +11,7 @@ const Index = () => {
       <div className="content-container">
         <About />
         <Experience />
+        <Contact />
       </div>
       <style jsx>{`
         .content-container {
