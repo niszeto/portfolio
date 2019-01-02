@@ -1,12 +1,6 @@
 import Banner from "./Banner";
-// import IconButton from "./IconButton";
-import ContactInformation from "./ContactInformation";
 import ContactInformationList from "./ContactInformationList";
 import ContactData from "../data/Contact";
-
-const gitHubText = "GitHub";
-const gitHubIconURI = "/static/GitHubIcon.png";
-const gitHubRedirectLink = "https://github.com/niszeto";
 
 const Contact = props => {
   return (

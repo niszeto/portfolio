@@ -3,6 +3,7 @@ import Sidebar from "../components/SideBar";
 import About from "../components/About";
 import Experience from "../components/Experience";
 import Contact from "../components/Contact";
+import Education from "../components/Education";
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
         <About />
         <Experience />
         <Contact />
+        <Education />
       </div>
       <style jsx>{`
         .content-container {
