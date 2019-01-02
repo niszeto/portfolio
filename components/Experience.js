@@ -4,9 +4,12 @@ import ExperienceData from "../data/Experience";
 
 const Experience = props => {
   return (
-    <div>
+    <div className="experience-container">
       <Banner text="Experience" />
-      <ExperienceCard data={ExperienceData} />
+      {ExperienceData.map((experience, index) => {
+        return <ExperienceCard data={experience} id={index} />;
+      })}
+      <style jsx>{``}</style>
     </div>
   );
 };

@@ -1,10 +1,11 @@
 import Banner from "./Banner";
+import AboutData from "../data/About";
 
 const About = props => {
   return (
     <div>
       <Banner text="About" />
-      <p>{props.text}</p>
+      <p>{AboutData}</p>
       <style jsx>{`
         p {
           margin: auto;
