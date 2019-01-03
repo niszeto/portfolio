@@ -1,6 +1,5 @@
 const IconButton = props => {
   const { redirectLink, iconURI } = props;
-  console.log(props);
 
   return (
     <div className="button">

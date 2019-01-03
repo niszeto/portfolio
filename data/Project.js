@@ -10,6 +10,10 @@ const PROJECTS_DATA = [
       {
         iconURI: "/static/GitHubIcon.png",
         redirectLink: "https://www.google.com/"
+      },
+      {
+        iconURI: "/static/LinkedInIcon.png",
+        redirectLink: "https://www.google.com/"
       }
     ],
     descriptions: [

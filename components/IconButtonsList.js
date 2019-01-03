@@ -4,7 +4,7 @@ const IconButtonsList = props => {
   const { data } = props;
 
   return (
-    <div>
+    <div className="icon-buttons-container">
       {data.map((link, index) => {
         const { redirectLink, iconURI } = link;
         return (
@@ -16,7 +16,13 @@ const IconButtonsList = props => {
           />
         );
       })}
-      <style jsx>{``}</style>
+      <style jsx>{`
+        .icon-buttons-container {
+          display: flex;
+          // flex-grow: 1;
+          justify-content: flex-end;
+        }
+      `}</style>
     </div>
   );
 };

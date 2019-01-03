@@ -23,7 +23,7 @@ const Project = props => {
           flex-direction: column;
           // justify-content: center;
           align-items: center;
-          background-color: red;
+          // background-color: red;
           // height: auto;
           width: 80%;
         }

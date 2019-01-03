@@ -28,6 +28,7 @@ const ProjectCard = props => {
           height: 600px;
           width: 100%;
           border-style: solid;
+          margin: 10px;
         }
         header {
           display: flex;
@@ -64,6 +65,23 @@ const ProjectCard = props => {
         }
 
         @media only screen and (max-width: 600px) {
+          figure {
+            display: flex;
+            flex: 2;
+          }
+          header {
+            display: flex;
+            flex: 0.75;
+            flex-direction: column;
+            justify-content: space-evenly;
+            // align-items: center;
+            text-align: center;
+            background-color: green;
+          }
+          main {
+            flex: 1;
+            overflow: auto;
+          }
         }
       `}</style>
     </div>
