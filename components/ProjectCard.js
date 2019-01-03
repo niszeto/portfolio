@@ -1,9 +1,8 @@
 import DescriptionsList from "../components/DescriptionsList";
+import IconButtonsList from "../components/IconButtonsList";
 
 const ProjectCard = props => {
   const { title, image, links, descriptions } = props.data;
-
-  console.log(props.data);
 
   return (
     <div className="project-card-container">
@@ -13,7 +12,7 @@ const ProjectCard = props => {
 
       <header>
         <h1>{title}</h1>
-        <button>github</button>
+        <IconButtonsList data={links} />
       </header>
 
       <main>
