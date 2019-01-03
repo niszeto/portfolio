@@ -35,7 +35,9 @@ const ProjectCard = props => {
           flex: 1;
           justify-content: space-between;
           align-items: center;
+          width: 95%;
           text-align: center;
+          margin: auto;
         }
 
         figure {
@@ -60,8 +62,10 @@ const ProjectCard = props => {
         // }
 
         main {
+          display: flex;
           flex: 2;
           overflow: auto;
+          // align-items: center;
         }
 
         @media only screen and (max-width: 600px) {

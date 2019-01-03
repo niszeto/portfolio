@@ -23,6 +23,13 @@ const Index = () => {
         .content-container {
           margin-left: 26%;
         }
+
+        @media only screen and (max-width: 600px) {
+          .content-container {
+            background-color: red;
+            margin: 0;
+          }
+        }
       `}</style>
     </Layout>
   );

@@ -20,6 +20,20 @@ const SideBar = () => {
           height: 100%;
           overflow: auto;
         }
+
+        @media only screen and (max-width: 700px) {
+          .side-bar-container {
+            position: static;
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            justify-content: spaced-evenly;
+            width: 100%;
+            height: 100%;
+            background-color: #f1f4;
+            overflow: auto;
+          }
+        }
       `}</style>
     </div>
   );
