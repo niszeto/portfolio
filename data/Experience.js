@@ -1,10 +1,9 @@
 const EXPERIENCE_DATA = [
   {
-    logo:
-      "https://cdn-payscale.com/content/school_logos/San%20Francisco%20State%20University%20(SFSU)_200px.jpg",
+    logo: "/static/SFSULogo.jpeg",
     name: "San Francisco State University",
     role: "PINC Mentor",
-    website: "http://www.sfsu.edu/",
+    website: "https://www.sfsu.edu/",
     details: [
       "Mentored a team of three biology students to design, plan, and implement a web application used to predict parent cats’ offspring traits.",
       "Facilitated weekly meetings to discuss current progress, reflect on problems encountered, and plans for future work.",
@@ -16,11 +15,10 @@ const EXPERIENCE_DATA = [
     state: "CA"
   },
   {
-    logo:
-      "https://cdn-payscale.com/content/school_logos/San%20Francisco%20State%20University%20(SFSU)_200px.jpg",
+    logo: "/static/SFSULogo.jpeg",
     name: "San Francisco State University",
     role: "Instructional Student Assistant ",
-    website: "http://www.sfsu.edu/",
+    website: "https://www.sfsu.edu/",
     details: [
       "Taught a supplementary ​Introduction to Programming with Java​ lab to a classroom of thirty students.",
       "Developed weekly lesson plans and assignments to enforce a better understanding of introductory programming concepts (variables, control flow, basic data types, object-oriented programming).",

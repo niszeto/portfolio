@@ -5,9 +5,11 @@ const ContactInformation = props => {
 
   return (
     <div className="contact-information-container">
-      <strong>{text}</strong>
+      <strong>{`${text} : `}</strong>
       <IconButton redirectLink={redirectLink} iconURI={iconURI} />
-      <strong>{contactInformation}</strong>
+      <a href={redirectLink}>
+        <strong>{contactInformation}</strong>
+      </a>
       <style jsx>{`
         .contact-information-container {
           display: flex;
