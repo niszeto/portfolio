@@ -1,14 +1,16 @@
 const Header = props => {
-  const { imageURI, title, text } = props;
+  const { imageURI, establishment, role, website } = props;
 
   return (
     <header>
-      <div className="title-container">
+      <div className="establishment-container">
         <img src={imageURI} />
-        <h1>{title}</h1>
+        <a href={website}>
+          <h1>{establishment}</h1>
+        </a>
       </div>
-      <div className="text-container">
-        <h1>{text}</h1>
+      <div className="role-container">
+        <h1>{role}</h1>
       </div>
       <style jsx>{`
         header {
@@ -24,12 +26,12 @@ const Header = props => {
           width: 50px;
         }
 
-        .title-container {
+        .establishment-container {
           display: flex;
           align-items: center;
         }
 
-        .text-container {
+        .role-container {
           display: flex;
           align-items: center;
         }
@@ -41,19 +43,19 @@ const Header = props => {
             justify-content: space-between;
             padding: 10px;
           }
-          .title-container {
+          .establishment-container {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
           }
-          .text-container {
+          .role-container {
             flex-direction: column;
             justify-content: center;
             align-items: center;
           }
           header div h1 {
-            text-align: center;
+            role-align: center;
           }
         }
       `}</style>

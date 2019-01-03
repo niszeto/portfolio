@@ -1,31 +1,35 @@
-import DescriptionsList from "./DescriptionsList";
+import DescriptionList from "./DescriptionsList";
 import Header from "./Header";
 
 const ExperienceCard = props => {
   const {
-    companyLogo,
-    companyName,
-    jobTitle,
-    descriptions,
+    logo,
+    name,
+    website,
+    role,
+    details,
     startDate,
     endDate,
-    companyCity,
-    companyState
+    city,
+    state
   } = props.data;
 
   return (
-    <div className="experience-card-container">
-      <Header imageURI={companyLogo} title={companyName} text={jobTitle} />
+    <div className="card-container">
+      <Header
+        imageURI={logo}
+        establishment={name}
+        website={website}
+        role={role}
+      />
       <article>
-        <DescriptionsList descriptions={descriptions} />
+        <DescriptionList descriptions={details} />
       </article>
       <footer>
-        <h1>{`${startDate} - ${endDate}`}</h1>
-        <h1>|</h1>
-        <h1>{`${companyCity}, ${companyState}`}</h1>
+        <h1>{`${startDate} - ${endDate} | ${city}, ${state}`}</h1>
       </footer>
       <style jsx>{`
-        .experience-card-container {
+        .card-container {
           width: 80%;
           margin: auto;
           border-style: solid;

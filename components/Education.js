@@ -1,32 +1,14 @@
 import Banner from "./Banner";
-import Header from "./Header";
 import EducationData from "../data/Education";
-import DescriptionsList from "./DescriptionsList";
+import Card from "./Card";
 
 const Education = props => {
-  const {
-    logo,
-    name,
-    city,
-    state,
-    startDate,
-    endDate,
-    educationDetails
-  } = EducationData;
-
   return (
     <div>
       <Banner text="Education" />
-      <div className="education-content">
-        <Header
-          imageURI={logo}
-          title={name}
-          text={`${startDate} - ${endDate} | ${city},${state} `}
-        />
-        <div>
-          <DescriptionsList descriptions={educationDetails} />
-        </div>
-      </div>
+      {EducationData.map((education, index) => {
+        return <Card data={education} key={index} id={index} />;
+      })}
       <style jsx>{`
         .education-content {
           border-style: solid;
