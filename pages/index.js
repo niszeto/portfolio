@@ -5,6 +5,7 @@ import Experience from "../components/Experience";
 import Contact from "../components/Contact";
 import Education from "../components/Education";
 import Projects from "../components/Projects";
+import Skills from "../components/Skills";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
         <Contact />
         <Education />
         <Projects />
+        <Skills />
       </div>
       <style jsx>{`
         .content-container {

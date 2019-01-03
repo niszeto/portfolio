@@ -1,23 +1,18 @@
-const descriptions = [
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, a, ducimus earum nemo repudiandae quo quae non mollitia tempora iure alias unde dolor! Aperiam dolores ex, molestias a vero quia.",
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, a, ducimus earum nemo repudiandae quo quae non mollitia tempora iure alias unde dolor! Aperiam dolores ex, molestias a vero quia.",
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, a, ducimus earum nemo repudiandae quo quae non mollitia tempora iure alias unde dolor! Aperiam dolores ex, molestias a vero quia."
-];
-
 import DescriptionsList from "../components/DescriptionsList";
 
 const ProjectCard = props => {
+  const { title, image, links, descriptions } = props.data;
+
+  console.log(props.data);
+
   return (
     <div className="project-card-container">
       <figure>
-        <img
-          className="cover"
-          src="https://images3.alphacoders.com/723/thumb-1920-72397.jpg"
-        />
+        <img className="contain" src={image} />
       </figure>
 
       <header>
-        <h1>Project Title</h1>
+        <h1>{title}</h1>
         <button>github</button>
       </header>
 
@@ -44,7 +39,7 @@ const ProjectCard = props => {
         }
 
         figure {
-          // display: flex;
+          display: flex;
           flex: 6;
         }
 
@@ -60,13 +55,16 @@ const ProjectCard = props => {
           object-fit: contain;
         }
 
-        .cover {
-          object-fit: cover;
-        }
+        // .cover {
+        //   object-fit: cover;
+        // }
 
         main {
           flex: 2;
           overflow: auto;
+        }
+
+        @media only screen and (max-width: 600px) {
         }
       `}</style>
     </div>

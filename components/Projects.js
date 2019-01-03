@@ -1,15 +1,16 @@
 import Banner from "./Banner";
 import ProjectCard from "./ProjectCard";
+import ProjectsData from "../data/Project";
 
 const Project = props => {
   return (
     <div className="project-container">
       <Banner text="Projects" />
       <div className="project-cards-container">
-        <ProjectCard />
+        {ProjectsData.map((project, index) => {
+          return <ProjectCard data={project} key={index} id={index} />;
+        })}
       </div>
-
-      <Banner text="Projects" />
       <style jsx>{`
         .project-container {
           display: flex;
