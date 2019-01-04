@@ -2,7 +2,7 @@ import Avatar from "./Avatar";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
-const SideBar = () => {
+const SideBar = props => {
   return (
     <div className="side-bar-container">
       <Avatar />

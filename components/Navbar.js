@@ -1,18 +1,18 @@
-import React from "react";
+import NavbarData from "../data/Navbar";
 
 const Navbar = props => {
   return (
     <div className="navbar-container">
       <div className="redirectLinkContainer">
-        <a href="/#about">About</a>
-        <a href="/#skills">Skills</a>
-        <a href="/#projects">Projects</a>
-        <a href="/#experience">Experience</a>
-        <a href="/#education">Education</a>
-        <a href="/#contact">Contact</a>
-        <a href="/static/Nicholas Szeto Resume.pdf" target="_blank">
-          Resume
-        </a>
+        {NavbarData.map((navigationLink, index) => {
+          const { redirect, text } = navigationLink;
+
+          return (
+            <a href={redirect} key={index} id={index}>
+              {text}
+            </a>
+          );
+        })}
       </div>
 
       <style jsx>
