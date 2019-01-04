@@ -1,5 +1,4 @@
 import Banner from "./Banner";
-import CaptionPicture from "./CaptionPicture";
 import SkillData from "../data/Skill";
 import SkillsList from "./SkillsList";
 

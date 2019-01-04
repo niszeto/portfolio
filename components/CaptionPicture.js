@@ -19,6 +19,10 @@ const CaptionPicture = props => {
           width: 200px;
           background-color: red;
         }
+        img {
+          height: auto;
+          width: 100%;
+        }
         h1 {
           text-align: center;
         }

@@ -15,6 +15,13 @@ const SkillsList = props => {
           />
         );
       })}
+      <style jsx>{`
+        .skills-list-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+      `}</style>
     </div>
   );
 };
