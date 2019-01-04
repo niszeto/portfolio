@@ -3,7 +3,7 @@ import AboutData from "../data/About";
 
 const About = props => {
   return (
-    <div>
+    <div id="about">
       <Banner text="About" />
       <p>{AboutData}</p>
       <style jsx>{`

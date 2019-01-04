@@ -13,15 +13,16 @@ const CaptionPicture = props => {
         .caption-card-container {
           display: flex;
           flex-direction: column;
-          justify-content: center;
+          justify-content: flex-end;
           align-items: center;
           height: 250px;
           width: 200px;
-          background-color: red;
+          // background-color: red;
         }
         img {
           height: auto;
           width: 100%;
+          max-width: 150px;
         }
         h1 {
           text-align: center;

@@ -7,7 +7,7 @@ import Education from "../components/Education";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 
-const Index = () => {
+const Index = props => {
   return (
     <Layout>
       <Sidebar />

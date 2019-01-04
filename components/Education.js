@@ -4,7 +4,7 @@ import Card from "./Card";
 
 const Education = props => {
   return (
-    <div>
+    <div id="education">
       <Banner text="Education" />
       {EducationData.map((education, index) => {
         return <Card data={education} key={index} id={index} />;

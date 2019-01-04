@@ -4,7 +4,7 @@ import ExperienceData from "../data/Experience";
 
 const Experience = props => {
   return (
-    <div className="experience-container">
+    <div id="experience" className="experience-container">
       <Banner text="Experience" />
       {ExperienceData.map((experience, index) => {
         return <Card data={experience} key={index} id={index} />;

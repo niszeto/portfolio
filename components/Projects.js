@@ -4,21 +4,21 @@ import ProjectsData from "../data/Project";
 
 const Project = props => {
   return (
-    <div className="project-container">
+    <div id="projects" className="projects-container">
       <Banner text="Projects" />
-      <div className="project-cards-container">
+      <div className="projects-cards-container">
         {ProjectsData.map((project, index) => {
           return <ProjectCard data={project} key={index} id={index} />;
         })}
       </div>
       <style jsx>{`
-        .project-container {
+        .projects-container {
           display: flex;
           flex-direction: column;
           // justify-content: center;
           align-items: center;
         }
-        .project-cards-container {
+        .projects-cards-container {
           display: flex;
           flex-direction: column;
           // justify-content: center;

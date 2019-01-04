@@ -4,7 +4,7 @@ import ContactData from "../data/Contact";
 
 const Contact = props => {
   return (
-    <div className="contact-container">
+    <div id="contact" className="contact-container">
       <Banner text="Contact" />
       <div className="contact-content">
         <ContactInformationList data={ContactData} />

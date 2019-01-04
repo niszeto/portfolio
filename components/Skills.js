@@ -4,7 +4,7 @@ import SkillsList from "./SkillsList";
 
 const Skills = props => {
   return (
-    <div className="skills-container">
+    <div id="skills" className="skills-container">
       <Banner text="Skills" />
       <SkillsList data={SkillData} />
       <style jsx>{``}</style>

@@ -1,16 +1,18 @@
 import React from "react";
 
-const Navbar = () => {
+const Navbar = props => {
   return (
     <div className="navbar-container">
       <div className="redirectLinkContainer">
-        <a>About</a>
-        <a>Skills</a>
-        <a>Projects</a>
-        <a>Experience</a>
-        <a>Education</a>
-        <a>Contact</a>
-        <a>Resume</a>
+        <a href="/#about">About</a>
+        <a href="/#skills">Skills</a>
+        <a href="/#projects">Projects</a>
+        <a href="/#experience">Experience</a>
+        <a href="/#education">Education</a>
+        <a href="/#contact">Contact</a>
+        <a href="/static/Nicholas Szeto Resume.pdf" target="_blank">
+          Resume
+        </a>
       </div>
 
       <style jsx>
