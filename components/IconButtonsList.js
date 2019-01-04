@@ -19,8 +19,6 @@ const IconButtonsList = props => {
       <style jsx>{`
         .icon-buttons-container {
           display: flex;
-          // flex-grow: 1;
-          justify-content: flex-end;
         }
       `}</style>
     </div>

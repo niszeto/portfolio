@@ -21,7 +21,7 @@ const SideBar = props => {
           overflow: auto;
         }
 
-        @media only screen and (max-width: 700px) {
+        @media only screen and (max-width: 600px) {
           .side-bar-container {
             position: static;
             display: flex;

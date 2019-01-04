@@ -1,9 +1,10 @@
-const Footer = () => {
+import IconButtonsList from "./IconButtonsList";
+import ContactData from "../data/Contact";
+
+const Footer = props => {
   return (
     <div className="icon-link-container">
-      <button>Email</button>
-      <button>Github</button>
-      <button>LinkedIn</button>
+      <IconButtonsList data={ContactData} />
       <style jsx>
         {`
           .icon-link-container {
