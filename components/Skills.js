@@ -1,16 +1,13 @@
 import Banner from "./Banner";
 import CaptionPicture from "./CaptionPicture";
+import SkillData from "../data/Skill";
+import SkillsList from "./SkillsList";
 
 const Skills = props => {
   return (
     <div className="skills-container">
       <Banner text="Skills" />
-      <CaptionPicture
-        imageURL={
-          "https://user-images.githubusercontent.com/14293805/36941746-0d65c6fa-1f63-11e8-8afa-ab2d28de86db.png"
-        }
-        caption={"JavaScript"}
-      />
+      <SkillsList data={SkillData} />
       <style jsx>{``}</style>
     </div>
   );
