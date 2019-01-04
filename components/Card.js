@@ -35,13 +35,11 @@ const ExperienceCard = props => {
           border-style: solid;
           display: flex;
           flex-direction: column;
-          background-color: green;
         }
 
         article {
           display: flex;
           flex-direction: column;
-          background-color: blue;
           padding: 5px;
         }
         footer {
@@ -53,7 +51,7 @@ const ExperienceCard = props => {
           margin: 5px;
         }
 
-        @media screen and (max-width: 700px) {
+        @media screen and (max-width: 600px) {
           footer {
             flex-direction: column;
             justify-content: center;

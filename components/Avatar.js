@@ -5,12 +5,11 @@ const Avatar = props => {
       <strong>Nicholas Szeto</strong>
       <style jsx>{`
         .avatar-container {
-          background-color: red;
           display: flex;
+          flex: 1;
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          flex: 1;
         }
         img {
           height: 150px;

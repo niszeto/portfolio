@@ -14,7 +14,6 @@ const Header = props => {
       </div>
       <style jsx>{`
         header {
-          background-color: red;
           display: flex;
           justify-content: space-between;
           padding: 10px;

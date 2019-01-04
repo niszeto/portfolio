@@ -1,15 +1,20 @@
 import NavbarData from "../data/Navbar";
+import Icon from "./Icon";
 
 const Navbar = props => {
   return (
     <div className="navbar-container">
-      <div className="redirectLinkContainer">
+      <div className="redirect-link-container">
         {NavbarData.map((navigationLink, index) => {
           const { redirect, text } = navigationLink;
 
+          // might want to create a seperate component called NavbarLink.js
           return (
             <a href={redirect} key={index} id={index}>
-              {text}
+              <div className="redirect-link">
+                <Icon iconURI="/static/Navbar Icons/Projects.png" />
+                <h1>{text}</h1>
+              </div>
             </a>
           );
         })}
@@ -18,28 +23,29 @@ const Navbar = props => {
       <style jsx>
         {`
           .navbar-container {
-            flex: 1;
+            flex: 2;
             background-color: white;
           }
-          .redirectLinkContainer {
+          .redirect-link-container {
             display: flex;
             flex-direction: column;
           }
 
-          .redirectLinkContainer a {
+          .redirect-link-container a {
             display: block;
             color: black;
-            padding: 10px;
+            margin: 5px;
           }
 
-          .redirectLinkContainer a.active {
-            background-color: #4caf50;
-            color: white;
-          }
-
-          .redirectLinkContainer a:hover:not(.active) {
+          .redirect-link-container a:hover:not(.active) {
             background-color: #555;
             color: white;
+          }
+
+          .redirect-link {
+            display: flex;
+            // justify-content: center;
+            // align-items: center;
           }
         `}
       </style>

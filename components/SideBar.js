@@ -30,7 +30,6 @@ const SideBar = props => {
             justify-content: spaced-evenly;
             width: 100%;
             height: 100%;
-            background-color: #f1f4;
             overflow: auto;
           }
         }

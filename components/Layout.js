@@ -14,6 +14,10 @@ const Layout = ({ children }) => {
           margin: 0;
           padding: 0;
         }
+
+        a {
+          text-decoration: none;
+        }
       `}</style>
     </div>
   );
