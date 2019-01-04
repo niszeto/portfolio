@@ -1,4 +1,4 @@
-const Avatar = () => {
+const Avatar = props => {
   return (
     <div className="avatar-container">
       <img src="/static/profile.png" />

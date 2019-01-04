@@ -15,9 +15,9 @@ const ProjectCard = props => {
         <IconButtonsList data={links} />
       </header>
 
-      <main>
+      <article>
         <DescriptionsList descriptions={descriptions} />
-      </main>
+      </article>
 
       <style jsx>{`
         .project-card-container {
@@ -61,7 +61,7 @@ const ProjectCard = props => {
         //   object-fit: cover;
         // }
 
-        main {
+        article {
           display: flex;
           flex: 2;
           overflow: auto;
@@ -82,7 +82,7 @@ const ProjectCard = props => {
             text-align: center;
             background-color: green;
           }
-          main {
+          article {
             flex: 1;
             overflow: auto;
           }

@@ -11,14 +11,14 @@ const Index = () => {
   return (
     <Layout>
       <Sidebar />
-      <div className="content-container">
+      <main className="content-container">
         <About />
         <Experience />
         <Contact />
         <Education />
         <Projects />
         <Skills />
-      </div>
+      </main>
       <style jsx>{`
         .content-container {
           margin-left: 26%;
