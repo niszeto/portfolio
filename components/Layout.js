@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
       </Head>
-      {children}
+      <body>{children}</body>
       <style jsx global>{`
         * {
           box-sizing: border-box;
@@ -18,6 +18,18 @@ const Layout = ({ children }) => {
         a {
           text-decoration: none;
           color: black;
+        }
+
+        .font {
+          font-family: Helvetica, sans-serif;
+        }
+
+        .font-size {
+          font-size: 1.2em;
+        }
+
+        .font-color {
+          color: #4f4f4f;
         }
       `}</style>
     </div>

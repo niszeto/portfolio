@@ -23,7 +23,7 @@ const Navbar = props => {
       <style jsx>
         {`
           .navbar-container {
-            flex: 2;
+            // flex: 2;
             background-color: white;
           }
           .redirect-link-container {

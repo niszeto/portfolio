@@ -8,7 +8,7 @@ const Footer = props => {
       <style jsx>
         {`
           .icon-link-container {
-            flex: 1;
+            // flex: 1;
           }
         `}
       </style>

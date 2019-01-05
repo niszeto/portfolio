@@ -1,12 +1,16 @@
+import AvatarData from "../data/Avatar";
+
 const Avatar = props => {
+  const { name, imageURI } = AvatarData;
+
   return (
     <div className="avatar-container">
-      <img src="/static/profile.png" />
-      <strong>Nicholas Szeto</strong>
+      <img src={imageURI} />
+      <strong>{name}</strong>
       <style jsx>{`
         .avatar-container {
           display: flex;
-          flex: 2;
+          // flex: 2;
           flex-direction: column;
           justify-content: center;
           align-items: center;

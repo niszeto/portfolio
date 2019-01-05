@@ -13,11 +13,11 @@ const Index = props => {
       <Sidebar />
       <main className="content-container">
         <About />
-        <Experience />
-        <Contact />
-        <Education />
-        <Projects />
         <Skills />
+        <Projects />
+        <Experience />
+        <Education />
+        <Contact />
       </main>
       <style jsx>{`
         .content-container {
