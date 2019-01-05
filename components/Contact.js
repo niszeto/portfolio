@@ -6,7 +6,7 @@ const Contact = props => {
   return (
     <div id="contact" className="contact-container">
       <Banner text="Contact" />
-      <div className="contact-content">
+      <div className="contact-content box-shadow">
         <ContactInformationList data={ContactData} />
       </div>
 
@@ -15,7 +15,6 @@ const Contact = props => {
           height: 300px;
         }
         .contact-content {
-          border-style: solid;
           width: 80%;
           margin: auto;
           margin-top: 5px;

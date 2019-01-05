@@ -5,7 +5,7 @@ const ProjectCard = props => {
   const { title, image, links, descriptions } = props.data;
 
   return (
-    <div className="project-card-container">
+    <div className="project-card-container box-shadow">
       <figure>
         <img className="contain" src={image} />
       </figure>
@@ -27,7 +27,6 @@ const ProjectCard = props => {
           // align-items: center;
           height: 600px;
           width: 100%;
-          border-style: solid;
           margin: 10px;
         }
         header {

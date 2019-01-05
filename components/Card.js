@@ -15,7 +15,7 @@ const ExperienceCard = props => {
   } = props.data;
 
   return (
-    <div className="card-container">
+    <div className="card-container box-shadow">
       <Header
         imageURI={logo}
         establishment={name}
@@ -32,7 +32,6 @@ const ExperienceCard = props => {
         .card-container {
           width: 80%;
           margin: auto;
-          border-style: solid;
           display: flex;
           flex-direction: column;
         }
