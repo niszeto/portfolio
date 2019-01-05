@@ -7,6 +7,12 @@ import Education from "../components/Education";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 
+// background-color: #687864;
+// background-color: #31708e;
+// background-color: #5085a5;
+// background-color: #8fc1e3;
+// background-color: #f7f9fb;
+
 const Index = props => {
   return (
     <Layout>

@@ -4,18 +4,17 @@ import Footer from "./Footer";
 
 const SideBar = props => {
   return (
-    <div className="side-bar-container">
+    <div className="side-bar-container box-shadow">
       <Avatar />
       <Navbar />
       <Footer />
       <style jsx>{`
         .side-bar-container {
           display: flex;
-          // flex: 1;
           flex-direction: column;
           justify-content: spaced-evenly;
           width: 26%;
-          background-color: #f1f1f1;
+          background-color: #f7f9fb;
           position: fixed;
           height: 100%;
           overflow: auto;

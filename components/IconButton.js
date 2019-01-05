@@ -15,11 +15,17 @@ const IconButton = props => {
           display: flex;
           justify-content: center;
           align-items: center;
-          margin: 0 5px 0 10px;
+          margin: 0 5px 0 5px;
+          pading: 5px;
+          border-radius: 10%;
         }
 
         .button:hover {
-          background-color: #f4f4f4;
+          // background-color: #687864;
+          // background-color: #31708e;
+          // background-color: #5085a5;
+          background-color: #8fc1e3;
+          // background-color: #f7f9fb;
         }
 
         a {
@@ -29,8 +35,8 @@ const IconButton = props => {
         }
 
         img {
-          height: 50px;
-          width: 50px;
+          height: 40px;
+          width: 40px;
         }
       `}</style>
     </div>

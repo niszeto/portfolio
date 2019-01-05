@@ -24,7 +24,8 @@ const Navbar = props => {
         {`
           .navbar-container {
             // flex: 2;
-            background-color: white;
+            // background-color: #f7f9fb;
+            // background-color: #8fc1e3;
             margin: 10px 0 10px 0;
           }
           .redirect-link-container {
@@ -34,13 +35,16 @@ const Navbar = props => {
 
           .redirect-link-container a {
             // display: block;
-            color: black;
+            // color: black;
+            color: #687864;
             padding: 5px;
           }
 
           .redirect-link-container a:hover:not(.active) {
-            background-color: #eff0f1;
-            color: black;
+            // background-color: #eff0f1;
+            // background-color: #8fc1e3;
+            background-color: #5085a5;
+            color: #f7f9fb;
           }
 
           .redirect-link {

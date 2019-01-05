@@ -63,7 +63,8 @@ const Layout = ({ children }) => {
         }
 
         .font-color {
-          color: #4f4f4f;
+          // color: #4f4f4f;
+          color: #687864;
         }
 
         .box-shadow {
