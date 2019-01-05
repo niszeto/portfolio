@@ -11,10 +11,20 @@ const Contact = props => {
       </div>
 
       <style jsx>{`
+        .contact-container {
+          height: 300px;
+        }
         .contact-content {
           border-style: solid;
           width: 80%;
           margin: auto;
+          margin-top: 5px;
+        }
+
+        @media only screen and (max-width: 600px) {
+          .contact-container {
+            height: 400px;
+          }
         }
       `}</style>
     </div>

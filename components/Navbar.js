@@ -6,13 +6,13 @@ const Navbar = props => {
     <div className="navbar-container">
       <div className="redirect-link-container">
         {NavbarData.map((navigationLink, index) => {
-          const { redirect, text } = navigationLink;
+          const { redirect, text, iconURI } = navigationLink;
 
           // might want to create a seperate component called NavbarLink.js
           return (
             <a href={redirect} key={index} id={index}>
               <div className="redirect-link">
-                <Icon iconURI="/static/Navbar Icons/Projects.png" />
+                <Icon iconURI={iconURI} />
                 <h1>{text}</h1>
               </div>
             </a>
@@ -34,7 +34,7 @@ const Navbar = props => {
           .redirect-link-container a {
             display: block;
             color: black;
-            margin: 5px;
+            padding: 5px;
           }
 
           .redirect-link-container a:hover:not(.active) {

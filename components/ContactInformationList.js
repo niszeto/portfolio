@@ -6,12 +6,14 @@ const ContactInformationList = props => {
   return (
     <div>
       {data.map((information, index) => {
+        const { text, redirectLink, iconURI, contactInformation } = information;
+
         return (
           <ContactInformation
-            text={information.text}
-            redirectLink={information.redirectLink}
-            iconURI={information.iconURI}
-            contactInformation={information.contactInformation}
+            text={text}
+            redirectLink={redirectLink}
+            iconURI={iconURI}
+            contactInformation={contactInformation}
             key={index}
             id={index}
           />

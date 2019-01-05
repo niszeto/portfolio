@@ -6,7 +6,7 @@ const Avatar = props => {
       <style jsx>{`
         .avatar-container {
           display: flex;
-          flex: 1;
+          flex: 2;
           flex-direction: column;
           justify-content: center;
           align-items: center;

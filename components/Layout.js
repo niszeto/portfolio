@@ -17,6 +17,7 @@ const Layout = ({ children }) => {
 
         a {
           text-decoration: none;
+          color: black;
         }
       `}</style>
     </div>

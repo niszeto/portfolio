@@ -7,14 +7,16 @@ const ContactInformation = props => {
     <div className="contact-information-container">
       <strong>{`${text} : `}</strong>
       <IconButton redirectLink={redirectLink} iconURI={iconURI} />
-      <a href={redirectLink}>
-        <strong>{contactInformation}</strong>
-      </a>
+      <a href={redirectLink}>{contactInformation}</a>
       <style jsx>{`
         .contact-information-container {
           display: flex;
           justify-content: flex-start;
           align-items: center;
+        }
+
+        strong {
+          margin-left: 10px;
         }
 
         @media only screen and (max-width: 600px) {
@@ -23,8 +25,6 @@ const ContactInformation = props => {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-          }
-          strong {
           }
         }
       `}</style>

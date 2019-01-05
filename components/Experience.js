@@ -9,7 +9,19 @@ const Experience = props => {
       {ExperienceData.map((experience, index) => {
         return <Card data={experience} key={index} id={index} />;
       })}
-      <style jsx>{``}</style>
+      <style jsx>{`
+        .experience-container {
+          display: flex;
+          flex-direction: column;
+          height: 700px;
+        }
+
+        @media only screen and (max-width: 600px) {
+          .experience-container {
+            height: 1200px;
+          }
+        }
+      `}</style>
     </div>
   );
 };

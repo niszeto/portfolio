@@ -21,6 +21,9 @@ const Index = props => {
       </main>
       <style jsx>{`
         .content-container {
+          // display: flex;
+          // flex: 1;
+          // flex-direction: column;
           margin-left: 26%;
         }
 

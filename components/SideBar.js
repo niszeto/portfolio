@@ -11,7 +11,7 @@ const SideBar = props => {
       <style jsx>{`
         .side-bar-container {
           display: flex;
-          flex: 1;
+          // flex: 1;
           flex-direction: column;
           justify-content: spaced-evenly;
           width: 26%;
