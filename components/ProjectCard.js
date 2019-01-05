@@ -18,7 +18,7 @@ const ProjectCard = props => {
       <article>
         <DescriptionsList descriptions={descriptions} />
       </article>
-
+      {/* possible to add take away list with details and summary tags */}
       <style jsx>{`
         .project-card-container {
           display: flex;

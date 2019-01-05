@@ -11,14 +11,14 @@ const Index = props => {
   return (
     <Layout>
       <Sidebar />
-      <main className="content-container">
+      <article className="content-container">
         <About />
         <Skills />
         <Projects />
         <Experience />
         <Education />
         <Contact />
-      </main>
+      </article>
       <style jsx>{`
         .content-container {
           // display: flex;

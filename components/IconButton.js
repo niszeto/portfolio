@@ -15,7 +15,7 @@ const IconButton = props => {
           display: flex;
           justify-content: center;
           align-items: center;
-          margin: 5px;
+          margin: 0 5px 0 10px;
         }
 
         .button:hover {

@@ -8,6 +8,7 @@ const Icon = props => {
         img {
           margin-left: 10px;
           margin-right: 10px;
+          margin-top: 5px;
           height: 30px;
           width: 30px;
         }

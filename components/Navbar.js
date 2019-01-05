@@ -13,7 +13,7 @@ const Navbar = props => {
             <a href={redirect} key={index} id={index}>
               <div className="redirect-link">
                 <Icon iconURI={iconURI} />
-                <h1>{text}</h1>
+                <h1 className="font">{text}</h1>
               </div>
             </a>
           );
@@ -25,6 +25,7 @@ const Navbar = props => {
           .navbar-container {
             // flex: 2;
             background-color: white;
+            margin: 10px 0 10px 0;
           }
           .redirect-link-container {
             display: flex;
@@ -32,14 +33,14 @@ const Navbar = props => {
           }
 
           .redirect-link-container a {
-            display: block;
+            // display: block;
             color: black;
             padding: 5px;
           }
 
           .redirect-link-container a:hover:not(.active) {
-            background-color: #555;
-            color: white;
+            background-color: #eff0f1;
+            color: black;
           }
 
           .redirect-link {
