@@ -3,7 +3,7 @@ const Banner = props => {
 
   return (
     <div className="banner-container">
-      <h1 className="font banner-font-size">{text}</h1>
+      <h1 className="font banner-font">{text}</h1>
       <style jsx>{`
         .banner-container {
           background: #31708e;
@@ -13,12 +13,11 @@ const Banner = props => {
           align-items: center;
         }
 
-        h1 {
-          margin: 25px;
-        }
-
-        banner-font-size {
-          font-size: 5em;
+        .banner-font {
+          font-size: 50px;
+          color: #f7f9fb;
+          font-weight: 1;
+          text-indent: 50px;
         }
       `}</style>
     </div>

@@ -7,7 +7,7 @@ const CaptionPicture = props => {
         <img src={imageURL} />
       </figure>
       <figcaption>
-        <h1>{caption}</h1>
+        <h1 className="font header-font">{caption}</h1>
       </figcaption>
       <style jsx>{`
         .caption-card-container {
@@ -15,9 +15,10 @@ const CaptionPicture = props => {
           flex-direction: column;
           justify-content: flex-end;
           align-items: center;
-          height: 250px;
+          height: auto;
+          max-height: 250px;
           width: 200px;
-          // background-color: red;
+          margin: 10px;
         }
         img {
           height: auto;

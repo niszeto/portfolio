@@ -7,7 +7,7 @@ const ProjectCard = props => {
   return (
     <div className="project-card-container box-shadow">
       <figure>
-        <img className="contain" src={image} />
+        <img className="cover" src={image} />
       </figure>
 
       <header>
@@ -52,13 +52,13 @@ const ProjectCard = props => {
           margin-right: auto;
         }
 
-        .contain {
-          object-fit: contain;
-        }
-
-        // .cover {
-        //   object-fit: cover;
+        // .contain {
+        //   object-fit: contain;
         // }
+
+        .cover {
+          object-fit: cover;
+        }
 
         article {
           display: flex;

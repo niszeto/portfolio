@@ -1,12 +1,14 @@
 import Banner from "./Banner";
 import AboutData from "../data/About";
 
+const summary = "Determined individual for self and peer improvement";
+
 const About = props => {
   return (
     <article id="about" className="about-container">
       <Banner text="About" />
       <section className="about-content">
-        <h1 className="font font-size">hello</h1>
+        <h1 className="font font-size header-font">{summary}</h1>
         <p className="font font-size font-color">{AboutData}</p>
       </section>
       <style jsx>{`
@@ -21,10 +23,13 @@ const About = props => {
           padding: 20px;
         }
 
-        // p {
-        //   margin: auto;
-        //   width: 95%;
-        // }
+        h1 {
+          margin: 10px;
+        }
+
+        p {
+          margin: 10px;
+        }
       `}</style>
     </article>
   );
