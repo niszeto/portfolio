@@ -16,7 +16,7 @@ const Education = props => {
           display: flex;
           flex-direction: column;
           align-items: center;
-          margin: 20px;
+          margin: 10px;
         }
       `}</style>
     </div>
