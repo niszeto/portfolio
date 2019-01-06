@@ -26,6 +26,7 @@ const Avatar = props => {
 
         strong {
           color: #31708e;
+          font-size: 30px;
         }
       `}</style>
     </div>

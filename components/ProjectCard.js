@@ -23,11 +23,10 @@ const ProjectCard = props => {
         .project-card-container {
           display: flex;
           flex-direction: column;
-          // justify-content: center;
-          // align-items: center;
           height: 600px;
           width: 100%;
-          margin: 10px;
+          margin: 20px;
+          background-color: #f7f9fb;
         }
         header {
           display: flex;
@@ -64,7 +63,7 @@ const ProjectCard = props => {
           display: flex;
           flex: 2;
           overflow: auto;
-          // align-items: center;
+          padding: 10px;
         }
 
         @media only screen and (max-width: 600px) {
@@ -79,7 +78,6 @@ const ProjectCard = props => {
             justify-content: space-evenly;
             // align-items: center;
             text-align: center;
-            background-color: green;
           }
           article {
             flex: 1;

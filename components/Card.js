@@ -31,7 +31,8 @@ const ExperienceCard = props => {
       <style jsx>{`
         .card-container {
           width: 80%;
-          margin: auto;
+          margin: 20px;
+          padding: 10px;
           display: flex;
           flex-direction: column;
         }

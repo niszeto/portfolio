@@ -21,11 +21,9 @@ const Project = props => {
         .projects-cards-container {
           display: flex;
           flex-direction: column;
-          // justify-content: center;
           align-items: center;
-          // background-color: red;
-          // height: auto;
           width: 80%;
+          padding: 10px;
         }
       `}</style>
     </div>

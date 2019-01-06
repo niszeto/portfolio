@@ -12,17 +12,19 @@ const Contact = props => {
 
       <style jsx>{`
         .contact-container {
-          height: 300px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
         }
         .contact-content {
           width: 80%;
           margin: auto;
-          margin-top: 5px;
+          margin: 20px;
+          padding: 10px;
         }
 
         @media only screen and (max-width: 600px) {
           .contact-container {
-            height: 400px;
           }
         }
       `}</style>

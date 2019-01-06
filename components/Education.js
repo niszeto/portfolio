@@ -6,14 +6,17 @@ const Education = props => {
   return (
     <div id="education" className="education-container">
       <Banner text="Education" />
-      {EducationData.map((education, index) => {
-        return <Card data={education} key={index} id={index} />;
-      })}
+      <div className="education-content">
+        {EducationData.map((education, index) => {
+          return <Card data={education} key={index} id={index} />;
+        })}
+      </div>
       <style jsx>{`
         .education-content {
-          border-style: solid;
-          width: 80%;
-          margin: auto;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 20px;
         }
       `}</style>
     </div>
