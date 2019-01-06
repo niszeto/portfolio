@@ -11,7 +11,7 @@ const ProjectCard = props => {
       </figure>
 
       <header>
-        <h1>{title}</h1>
+        <h1 className="header-font font">{title}</h1>
         <IconButtonsList data={links} />
       </header>
 

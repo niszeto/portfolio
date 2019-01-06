@@ -26,7 +26,7 @@ const ExperienceCard = props => {
         <DescriptionList descriptions={details} />
       </article>
       <footer>
-        <h1>{`${startDate} - ${endDate} | ${city}, ${state}`}</h1>
+        <h1 className="font header-font">{`${startDate} - ${endDate} | ${city}, ${state}`}</h1>
       </footer>
       <style jsx>{`
         .card-container {
@@ -35,6 +35,7 @@ const ExperienceCard = props => {
           padding: 10px;
           display: flex;
           flex-direction: column;
+          background-color: #f7f9fb;
         }
 
         article {

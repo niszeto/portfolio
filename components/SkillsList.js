@@ -20,7 +20,6 @@ const SkillsList = props => {
           display: flex;
           flex-wrap: wrap;
           justify-content: center;
-          padding: 20px;
         }
       `}</style>
     </div>

@@ -21,8 +21,6 @@ const Experience = props => {
           display: flex;
           flex-direction: column;
           align-items: center;
-          margin: 20px;
-          background-color: #f7f9fb;
         }
 
         @media only screen and (max-width: 600px) {

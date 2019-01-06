@@ -6,11 +6,11 @@ const Header = props => {
       <div className="establishment-container">
         <img src={imageURI} />
         <a href={website}>
-          <h1>{establishment}</h1>
+          <h1 className="font header-font">{establishment}</h1>
         </a>
       </div>
       <div className="role-container">
-        <h1>{role}</h1>
+        <h1 className="font header-font">{role}</h1>
       </div>
       <style jsx>{`
         header {

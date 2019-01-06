@@ -21,6 +21,7 @@ const Contact = props => {
           margin: auto;
           margin: 20px;
           padding: 10px;
+          background-color: #f7f9fb;
         }
 
         @media only screen and (max-width: 600px) {

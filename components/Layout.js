@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
         }
 
         body {
-          background-image: linear-gradient(#eff0f1, #f7f9fb);
+          background-image: linear-gradient(#8fc1e3, #f7f9fb);
         }
 
         main {
@@ -68,7 +68,7 @@ const Layout = ({ children }) => {
         }
 
         .header-font {
-          color: #5085a5;
+          color: #31708e;
         }
 
         .box-shadow {
