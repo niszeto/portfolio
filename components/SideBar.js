@@ -14,7 +14,8 @@ const SideBar = props => {
           flex-direction: column;
           justify-content: spaced-evenly;
           width: 26%;
-          background-color: #f7f9fb;
+          // background-color: #f7f9fb;
+          background-color: #8fc1e3;
           position: fixed;
           height: 100%;
           overflow: auto;
