@@ -1702,7 +1702,7 @@ var NAVBAR_DATA = [{
 }, {
   redirect: "/static/Nicholas Szeto Resume.pdf",
   text: "Resume",
-  iconURI: "../static/Navbar Icons/Resume.png"
+  iconURI: "./static/Navbar Icons/Resume.png"
 }];
 /* harmony default export */ __webpack_exports__["default"] = (NAVBAR_DATA);
 
