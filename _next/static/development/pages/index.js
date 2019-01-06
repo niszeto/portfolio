@@ -1696,13 +1696,13 @@ var NAVBAR_DATA = [{
   text: "Education",
   iconURI: "/static/Navbar Icons/Education.png"
 }, {
-  redirect: "/#contact",
+  redirect: "./#contact",
   text: "Contact",
   iconURI: "./static/Navbar Icons/Contact.png"
 }, {
-  redirect: "/static/Nicholas Szeto Resume.pdf",
+  redirect: "./static/Nicholas Szeto Resume.pdf",
   text: "Resume",
-  iconURI: "../static/Navbar Icons/Resume.png"
+  iconURI: "./static/Navbar Icons/Resume.png"
 }];
 /* harmony default export */ __webpack_exports__["default"] = (NAVBAR_DATA);
 

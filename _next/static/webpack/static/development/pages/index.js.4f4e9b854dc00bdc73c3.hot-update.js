@@ -30,17 +30,17 @@ var NAVBAR_DATA = [{
   text: "Education",
   iconURI: "/static/Navbar Icons/Education.png"
 }, {
-  redirect: "/#contact",
+  redirect: "./#contact",
   text: "Contact",
-  iconURI: "./static/Navbar Icons/Contact.png"
+  iconURI: "/static/Navbar Icons/Contact.png"
 }, {
-  redirect: "/static/Nicholas Szeto Resume.pdf",
+  redirect: "./static/Nicholas Szeto Resume.pdf",
   text: "Resume",
-  iconURI: "../static/Navbar Icons/Resume.png"
+  iconURI: "./static/Navbar Icons/Resume.png"
 }];
 /* harmony default export */ __webpack_exports__["default"] = (NAVBAR_DATA);
 
 /***/ })
 
 })
-//# sourceMappingURL=index.js.812024ac130a7f9bd3cd.hot-update.js.map
+//# sourceMappingURL=index.js.4f4e9b854dc00bdc73c3.hot-update.js.map
