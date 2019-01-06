@@ -44,7 +44,8 @@ const ProjectCard = props => {
         }
 
         figure img {
-          height: 100%;
+          height: auto;
+          max-height: 400px;
           width: 100%;
           display: block;
           margin-left: auto;
