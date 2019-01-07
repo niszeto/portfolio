@@ -25,7 +25,20 @@ const PROJECTS_DATA = [
   },
   {
     title: "Fried Chicken",
-    image: "/PortfolioWebsite/static/profile.png",
+    image: "./static/profile.png",
+    links: [
+      {
+        iconURI: "./static/GitHubIcon.png",
+        redirectLink: "https://www.google.com/"
+      }
+    ],
+    descriptions: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, a, ducimus earum nemo repudiandae quo quae non mollitia tempora iure alias unde dolor! Aperiam dolores ex, molestias a vero quia."
+    ]
+  },
+  {
+    title: "Fried Chicken",
+    image: "./static/profile.png",
     links: [
       {
         iconURI: "./static/GitHubIcon.png",

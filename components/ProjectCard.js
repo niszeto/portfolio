@@ -1,88 +1,70 @@
 import DescriptionsList from "../components/DescriptionsList";
 import IconButtonsList from "../components/IconButtonsList";
 
+const summary =
+  "IOS and Android Application to help users to Just Pick Something Now and be happy";
+
 const ProjectCard = props => {
   const { title, image, links, descriptions } = props.data;
 
   return (
     <div className="project-card-container box-shadow">
-      <figure>
-        <img className="cover" src={image} />
-      </figure>
+      <div className="project-card-content">
+        <figure>
+          <img className="contain" src={image} />
+        </figure>
 
-      <header>
-        <h1 className="header-font font">{title}</h1>
-        <IconButtonsList data={links} />
-      </header>
-
-      <article>
-        <DescriptionsList descriptions={descriptions} />
-      </article>
-      {/* possible to add take away list with details and summary tags */}
+        <div className="container">
+          <header>
+            <h1 className="header-font font">{title}</h1>
+            <IconButtonsList data={links} />
+          </header>
+          <p className="font font-color">{summary}</p>
+          <details>
+            <summary className="font header-font">Acknowledgements</summary>
+            <DescriptionsList descriptions={descriptions} />
+          </details>
+        </div>
+      </div>
       <style jsx>{`
         .project-card-container {
           display: flex;
           flex-direction: column;
-          height: 600px;
           width: 100%;
+          height: auto;
           margin: 20px;
           background-color: #f7f9fb;
         }
-        header {
-          display: flex;
-          flex: 1;
-          justify-content: space-between;
-          align-items: center;
-          width: 95%;
-          text-align: center;
-          margin: auto;
-        }
 
-        figure {
-          display: flex;
-          flex: 6;
+        .container {
+          width: 95%;
+          margin: auto;
+          padding: 10px;
         }
 
         figure img {
           height: auto;
-          max-height: 400px;
           width: 100%;
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
         }
 
-        // .contain {
-        //   object-fit: contain;
-        // }
-
-        .cover {
-          object-fit: cover;
+        .contain {
+          object-fit: contain;
         }
 
-        article {
+        header {
           display: flex;
-          flex: 2;
-          overflow: auto;
-          padding: 10px;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        summary {
+          margin: 10px 0 10px 0;
         }
 
         @media only screen and (max-width: 600px) {
-          figure {
-            display: flex;
-            flex: 2;
-          }
           header {
             display: flex;
-            flex: 0.75;
             flex-direction: column;
-            justify-content: space-evenly;
-            // align-items: center;
-            text-align: center;
-          }
-          article {
-            flex: 1;
-            overflow: auto;
           }
         }
       `}</style>
