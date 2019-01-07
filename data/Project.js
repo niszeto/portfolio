@@ -7,24 +7,6 @@ const PROJECTS_DATA = [
     summary: "A portfolio website about me, Nicholas Szeto."
   },
   {
-    title: "SMS Bot",
-    image: "./static/Project Screenshots/SMSBot.png",
-    // change image
-    links: [
-      {
-        iconURI: "./static/Link Icons/GitHubIcon.png",
-        redirectLink: "https://github.com/huy9997/SMSPythonBot/"
-      },
-      {
-        iconURI: "./static/Link Icons/ExpoIcon.png",
-        redirectLink: "https://expo.io/@niszeto/SMSBotApp/"
-      }
-    ],
-    descriptions: [],
-    summary:
-      "A mobile application to allow for organizing and gathering people for events with messages. "
-  },
-  {
     title: "Chowin-Out",
     image: "./static/Project Screenshots/Chowinout.png",
     links: [
@@ -86,7 +68,6 @@ const PROJECTS_DATA = [
     descriptions: [],
     summary: "A web application of the popular card game, Uno. "
   },
-
   {
     title: "Crypto-Brite",
     image: "./static/Project Screenshots/Cryptobrite.png",
@@ -104,7 +85,24 @@ const PROJECTS_DATA = [
     summary:
       "A mobile application to allow users to buy tickets to events with cryptocurrencies."
   },
-
+  {
+    title: "SMS Bot",
+    image: "./static/Project Screenshots/SMSBot.png",
+    // change image
+    links: [
+      {
+        iconURI: "./static/Link Icons/GitHubIcon.png",
+        redirectLink: "https://github.com/huy9997/SMSPythonBot/"
+      },
+      {
+        iconURI: "./static/Link Icons/ExpoIcon.png",
+        redirectLink: "https://expo.io/@niszeto/SMSBotApp/"
+      }
+    ],
+    descriptions: [],
+    summary:
+      "A mobile application to allow for organizing and gathering people for events with messages. "
+  },
   {
     title: "Gator Realtor",
     image: "./static/Project Screenshots/GatorRealtor.png",
@@ -145,9 +143,13 @@ const PROJECTS_DATA = [
   },
   {
     title: "Webserver",
-    image: "./static/Project Screenshots/PortfolioWebsite.png",
-    // change image
-    links: [],
+    image: "./static/Project Screenshots/Webserver.jpg",
+    links: [
+      {
+        iconURI: "./static/Link Icons/GitHubIcon.png",
+        redirectLink: "https://github.com/tmytrn/Web-Server/"
+      }
+    ],
     descriptions: [],
     summary: "A web server written in Java."
   }
