@@ -1851,9 +1851,11 @@ var PROJECTS_DATA = [{
   summary: "A single player puzzle game."
 }, {
   title: "Webserver",
-  image: "./static/Project Screenshots/PortfolioWebsite.png",
-  // change image
-  links: [],
+  image: "./static/Project Screenshots/Webserver.jpg",
+  links: [{
+    iconURI: "./static/Link Icons/GitHubIcon.png",
+    redirectLink: "https://github.com/tmytrn/Web-Server/"
+  }],
   descriptions: [],
   summary: "A web server written in Java."
 }]; // title: "",
