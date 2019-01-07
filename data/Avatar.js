@@ -1,6 +1,6 @@
 const AVATAR_DATA = {
   name: "Nicholas Szeto",
-  imageURI: "/static/profile.png",
+  imageURI: "./static/profile.png",
   caption: "Full Stack Developer"
 };
 

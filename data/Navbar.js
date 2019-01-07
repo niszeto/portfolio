@@ -1,38 +1,38 @@
 const NAVBAR_DATA = [
   {
-    redirect: "/#about",
+    redirect: "./#about",
     text: "About",
-    iconURI: "/static/Navbar Icons/About.png"
+    iconURI: "./static/Navbar Icons/About.png"
   },
   {
-    redirect: "/#skills",
+    redirect: "./#skills",
     text: "Skills",
-    iconURI: "/static/Navbar Icons/Skills.png"
+    iconURI: "./static/Navbar Icons/Skills.png"
   },
   {
-    redirect: "/#projects",
+    redirect: "./#projects",
     text: "Projects",
-    iconURI: "/static/Navbar Icons/Projects.png"
+    iconURI: "./static/Navbar Icons/Projects.png"
   },
   {
-    redirect: "/#experience",
+    redirect: "./#experience",
     text: "Experience",
-    iconURI: "/static/Navbar Icons/Experience.png"
+    iconURI: "./static/Navbar Icons/Experience.png"
   },
   {
-    redirect: "/#education",
+    redirect: "./#education",
     text: "Education",
-    iconURI: "/static/Navbar Icons/Education.png"
+    iconURI: "./static/Navbar Icons/Education.png"
   },
   {
-    redirect: "/#contact",
+    redirect: "./#contact",
     text: "Contact",
-    iconURI: "/static/Navbar Icons/Contact.png"
+    iconURI: "./static/Navbar Icons/Contact.png"
   },
   {
-    redirect: "/static/Nicholas Szeto Resume.pdf",
+    redirect: "./static/Nicholas Szeto Resume.pdf",
     text: "Resume",
-    iconURI: "/static/Navbar Icons/Resume.png"
+    iconURI: "./static/Navbar Icons/Resume.png"
   }
 ];
 

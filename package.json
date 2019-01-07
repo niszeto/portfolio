@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/niszeto/PortfolioWebsite/issues"
   },
-  "homepage": "https://niszeto.github.io/PortfolioWebsite",
+  "homepage": "https://niszeto.github.io/PortfolioWebsite/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "next": "^7.0.2",

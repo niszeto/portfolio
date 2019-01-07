@@ -1,6 +1,6 @@
 const EDUCATION_DATA = [
   {
-    logo: "/static/SFSULogo.jpeg",
+    logo: "./static/SFSULogo.jpeg",
     name: "San Francisco State University",
     website: "https://www.sfsu.edu/",
     city: "San Francisco",

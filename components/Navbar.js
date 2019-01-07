@@ -50,7 +50,7 @@ const Navbar = props => {
           .redirect-link {
             display: flex;
             // justify-content: center;
-            // align-items: center;
+            align-items: center;
           }
         `}
       </style>

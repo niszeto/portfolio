@@ -4,15 +4,15 @@ const PROJECTS_DATA = [
     image: "https://images3.alphacoders.com/723/thumb-1920-72397.jpg",
     links: [
       {
-        iconURI: "/static/MailIcon.png",
+        iconURI: "./static/MailIcon.png",
         redirectLink: "https://www.google.com/"
       },
       {
-        iconURI: "/static/GitHubIcon.png",
+        iconURI: "./static/GitHubIcon.png",
         redirectLink: "https://www.google.com/"
       },
       {
-        iconURI: "/static/LinkedInIcon.png",
+        iconURI: "./static/LinkedInIcon.png",
         redirectLink: "https://www.google.com/"
       }
     ],
@@ -25,10 +25,10 @@ const PROJECTS_DATA = [
   },
   {
     title: "Fried Chicken",
-    image: "/static/profile.png",
+    image: "/PortfolioWebsite/static/profile.png",
     links: [
       {
-        iconURI: "/static/GitHubIcon.png",
+        iconURI: "./static/GitHubIcon.png",
         redirectLink: "https://www.google.com/"
       }
     ],
