@@ -1771,7 +1771,7 @@ var PROJECTS_DATA = [{
   title: "Portfolio Website",
   image: "./static/Project Screenshots/PortfolioWebsite.png",
   links: [],
-  descriptions: ["Created with Next.js"],
+  descriptions: ["Modular components which displays dynamically generated data", "Created with Next.js", "React Front End", "HTML5 semantic tags", "Custom CSS3 styling"],
   summary: "A portfolio website about me, Nicholas Szeto."
 }, {
   title: "Chowin-Out",
@@ -1789,24 +1789,11 @@ var PROJECTS_DATA = [{
     iconURI: "./static/Link Icons/YoutubeIcon.png",
     redirectLink: "https://www.youtube.com/watch?v=MSteZ2InMr8&feature=youtu.be&t=1128"
   }],
-  descriptions: [],
+  descriptions: ["Written in React Native", "Created and cultivated in a span of 3 weeks", "Calls 3 REST APIs", "IOS and Android compatibility"],
   summary: "Mobile application to help users decide on a restaurant near their location."
 }, {
-  title: "Daug",
-  image: "./static/Project Screenshots/Daug.png",
-  links: [{
-    iconURI: "./static/Link Icons/GitHubIcon.png",
-    redirectLink: "https://github.com/niszeto/daug-mobile/"
-  }, {
-    iconURI: "./static/Link Icons/ExpoIcon.png",
-    redirectLink: "https://expo.io/@niszeto/daug-mobile/"
-  }],
-  descriptions: [],
-  summary: "Daug is a social network for pets. "
-}, {
   title: "UNO",
-  image: "./static/Project Screenshots/PortfolioWebsite.png",
-  // change image
+  image: "./static/Project Screenshots/Uno.png",
   links: [{
     iconURI: "./static/Link Icons/GitHubIcon.png",
     redirectLink: "https://github.com/sfsu-csc-667-spring-2018/term-project-sosgames/"
@@ -1814,7 +1801,7 @@ var PROJECTS_DATA = [{
     iconURI: "./static/Link Icons/HerokuIcon.png",
     redirectLink: "http://sos-games-uno.herokuapp.com/"
   }],
-  descriptions: [],
+  descriptions: ["Node.js Back End ", "EJS Front End", "Bootstrap styling", "Express server", "PostgreSQL as the relation database", "Socket.io for in game chat", "Passport for login, sign up, and authentication"],
   summary: "A web application of the popular card game, Uno. "
 }, {
   title: "Crypto-Brite",
@@ -1826,7 +1813,7 @@ var PROJECTS_DATA = [{
     iconURI: "./static/Link Icons/ExpoIcon.png",
     redirectLink: "https://expo.io/@thomashzhu/crypto-brite/"
   }],
-  descriptions: [],
+  descriptions: ["Written in React Native", "Won 3 awards at SF hacks, 'Best Beginner Hack', 'Best Use of Dash API', 'Best Mobile Hack'", "Created within a span of 24 hours"],
   summary: "A mobile application to allow users to buy tickets to events with cryptocurrencies."
 }, {
   title: "SMS Bot",
@@ -1839,8 +1826,20 @@ var PROJECTS_DATA = [{
     iconURI: "./static/Link Icons/ExpoIcon.png",
     redirectLink: "https://expo.io/@niszeto/SMSBotApp/"
   }],
-  descriptions: [],
+  descriptions: ["Written in React Native", "Designed a mock ups and created the UI of the mobile app"],
   summary: "A mobile application to allow for organizing and gathering people for events with messages. "
+}, {
+  title: "Daug",
+  image: "./static/Project Screenshots/Daug.png",
+  links: [{
+    iconURI: "./static/Link Icons/GitHubIcon.png",
+    redirectLink: "https://github.com/niszeto/daug-mobile/"
+  }, {
+    iconURI: "./static/Link Icons/ExpoIcon.png",
+    redirectLink: "https://expo.io/@niszeto/daug-mobile/"
+  }],
+  descriptions: ["Created in React Native", "IOS and Android compatibility", "Connects to a Heroku Back End server"],
+  summary: "Daug is a social network for pets. "
 }, {
   title: "Gator Realtor",
   image: "./static/Project Screenshots/GatorRealtor.png",
@@ -1848,7 +1847,7 @@ var PROJECTS_DATA = [{
     iconURI: "./static/Link Icons/GitHubIcon.png",
     redirectLink: "https://github.com/niszeto/Gator-Realtor"
   }],
-  descriptions: [],
+  descriptions: ["Node.js Back End ", "Handlebars Front End", "Bootstrap styling", "Express server", "MySQL as the relation database", "Passport for login, sign up, and authentication"],
   summary: "A website to allow people to buy and sell homes."
 }, {
   title: "Tank Wars",
@@ -1858,7 +1857,7 @@ var PROJECTS_DATA = [{
     iconURI: "./static/Link Icons/GitHubIcon.png",
     redirectLink: "https://github.com/niszeto/TankWarsGame/"
   }],
-  descriptions: [],
+  descriptions: ["Written in Java", "Used design patters such as, MVC, Observer, Visitor, Singleton", "Worked with Java Swing", "Created a reusable game engine"],
   summary: "A top down two player shooter game."
 }, {
   title: "Get Lazarus Out Of The Pit",
@@ -1868,17 +1867,17 @@ var PROJECTS_DATA = [{
     iconURI: "./static/Link Icons/GitHubIcon.png",
     redirectLink: "https://github.com/niszeto/GetLazarusOutOfThePitGame/"
   }],
-  descriptions: [],
+  descriptions: ["Written in Java", "Used design patters such as, MVC, Observer, Visitor, Singleton", "Reused code and modules from a previous project", "Worked with Java Swing"],
   summary: "A single player puzzle game."
 }, {
-  title: "Webserver",
+  title: "Web Server",
   image: "./static/Project Screenshots/Webserver.jpg",
   links: [{
     iconURI: "./static/Link Icons/GitHubIcon.png",
     redirectLink: "https://github.com/tmytrn/Web-Server/"
   }],
-  descriptions: [],
-  summary: "A web server written in Java."
+  descriptions: ["Able to handle simple http request such as, GET, HEAD, POST, PUT, DELETE", "Learned the inner workings and control flow of a web server"],
+  summary: "A simple web server written in Java."
 }]; // title: "",
 // image: "",
 // links: [{ icon: "", redirect: "" }],
