@@ -1,11 +1,8 @@
 import DescriptionsList from "../components/DescriptionsList";
 import IconButtonsList from "../components/IconButtonsList";
 
-const summary =
-  "IOS and Android Application to help users to Just Pick Something Now and be happy";
-
 const ProjectCard = props => {
-  const { title, image, links, descriptions } = props.data;
+  const { title, image, links, descriptions, summary } = props.data;
 
   return (
     <div className="project-card-container box-shadow">
