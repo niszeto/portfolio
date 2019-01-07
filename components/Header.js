@@ -2,7 +2,7 @@ const Header = props => {
   const { imageURI, establishment, role, website } = props;
 
   return (
-    <header>
+    <header className="padding-ten">
       <div className="establishment-container">
         <img src={imageURI} />
         <a href={website}>
@@ -16,7 +16,6 @@ const Header = props => {
         header {
           display: flex;
           justify-content: space-between;
-          padding: 10px;
         }
 
         header div img {
@@ -35,7 +34,7 @@ const Header = props => {
           align-items: center;
         }
 
-        @media screen and (max-width: 700px) {
+        @media screen and (max-width: 600px) {
           header {
             display: flex;
             flex-direction: column;
@@ -53,8 +52,8 @@ const Header = props => {
             justify-content: center;
             align-items: center;
           }
-          header div h1 {
-            role-align: center;
+          h1 {
+            text-align: center;
           }
         }
       `}</style>

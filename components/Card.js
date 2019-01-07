@@ -23,11 +23,11 @@ const ExperienceCard = props => {
         role={role}
       />
       <hr />
-      <article>
+      <article className="padding-ten">
         <DescriptionList descriptions={details} />
       </article>
       <footer>
-        <h1 className="font header-font indent">{`${startDate} - ${endDate} | ${city}, ${state}`}</h1>
+        <h1 className="font header-font indent margin-ten">{`${startDate} - ${endDate} | ${city}, ${state}`}</h1>
       </footer>
       <style jsx>{`
         .card-container {
@@ -40,15 +40,6 @@ const ExperienceCard = props => {
         article {
           display: flex;
           flex-direction: column;
-          padding: 5px;
-        }
-        footer {
-          display: flex;
-          padding: 5px;
-        }
-
-        footer h1 {
-          margin: 5px;
         }
 
         @media screen and (max-width: 600px) {
@@ -60,6 +51,7 @@ const ExperienceCard = props => {
 
           footer h1 {
             text-align: center;
+            text-ident: 0px;
           }
         }
       `}</style>

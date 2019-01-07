@@ -18,7 +18,7 @@ const ProjectCard = props => {
           </header>
           <hr />
 
-          <div className="container">
+          <div className="container padding-ten">
             <p className="font font-color">{summary}</p>
             <details>
               <summary className="font header-font">Acknowledgements</summary>
