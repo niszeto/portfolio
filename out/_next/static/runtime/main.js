@@ -5706,7 +5706,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/niszeto/Desktop/development/portfolioWebsite/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/niszeto/Desktop/development/PortfolioWebsite/.next");
       return error;
     }
   };
@@ -17946,7 +17946,7 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/niszeto/Desktop/development/portfolioWebsite/node_modules/next/dist/client/next-dev */"./node_modules/next/dist/client/next-dev.js");
+module.exports = __webpack_require__(/*! /Users/niszeto/Desktop/development/PortfolioWebsite/node_modules/next/dist/client/next-dev */"./node_modules/next/dist/client/next-dev.js");
 
 
 /***/ }),
