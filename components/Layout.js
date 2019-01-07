@@ -75,6 +75,26 @@ const Layout = ({ children }) => {
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
             0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
+
+        .indent {
+          text-indent: 10px;
+        }
+
+        .margin-ten {
+          margin: 10px;
+        }
+
+        .margin-twenty {
+          margin: 20px;
+        }
+
+        .padding-ten {
+          padding: 10px;
+        }
+
+        .padding-twenty {
+          padding: 20px;
+        }
       `}</style>
     </div>
   );

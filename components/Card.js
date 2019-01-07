@@ -15,24 +15,23 @@ const ExperienceCard = props => {
   } = props.data;
 
   return (
-    <div className="card-container box-shadow">
+    <div className="card-container margin-ten padding-ten box-shadow">
       <Header
         imageURI={logo}
         establishment={name}
         website={website}
         role={role}
       />
+      <hr />
       <article>
         <DescriptionList descriptions={details} />
       </article>
       <footer>
-        <h1 className="font header-font">{`${startDate} - ${endDate} | ${city}, ${state}`}</h1>
+        <h1 className="font header-font indent">{`${startDate} - ${endDate} | ${city}, ${state}`}</h1>
       </footer>
       <style jsx>{`
         .card-container {
-          width: 80%;
-          margin: 10px;
-          padding: 10px;
+          width: 100%;
           display: flex;
           flex-direction: column;
           background-color: #f7f9fb;
