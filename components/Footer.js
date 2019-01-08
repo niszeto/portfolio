@@ -10,6 +10,7 @@ const Footer = props => {
           .icon-link-container {
             // flex: 1;
             padding: 5px;
+            background-color: #8fc1e3;
           }
         `}
       </style>

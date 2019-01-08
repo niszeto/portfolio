@@ -4,7 +4,7 @@ const Avatar = props => {
   const { imageURI, name, caption } = AvatarData;
 
   return (
-    <div className="avatar-container">
+    <div className="avatar-container margin-ten">
       <img className="margin-ten" src={imageURI} />
       <strong className="font">{name}</strong>
       <em className="font font-color">{caption}</em>
@@ -14,8 +14,7 @@ const Avatar = props => {
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          margin: 10px;
-        }
+]        }
         img {
           height: 150px;
           width: 150px;
