@@ -1,18 +1,5 @@
 const PROJECTS_DATA = [
   {
-    title: "Portfolio",
-    image: "./static/Project Screenshots/PortfolioWebsite.png",
-    links: [],
-    descriptions: [
-      "Modular components which displays dynamically generated data",
-      "Created with Next.js",
-      "React Front End",
-      "HTML5 semantic tags",
-      "Custom CSS3 styling"
-    ],
-    summary: "A portfolio website about me, Nicholas Szeto."
-  },
-  {
     title: "Chowin-Out",
     image: "./static/Project Screenshots/Chowinout.png",
     links: [
@@ -201,6 +188,19 @@ const PROJECTS_DATA = [
       "Learned the inner workings and control flow of a web server"
     ],
     summary: "A simple web server written in Java."
+  },
+  {
+    title: "Portfolio",
+    image: "./static/Project Screenshots/PortfolioWebsite.png",
+    links: [],
+    descriptions: [
+      "Modular components which displays dynamically generated data",
+      "Created with Next.js",
+      "React Front End",
+      "HTML5 semantic tags",
+      "Custom CSS3 styling"
+    ],
+    summary: "A portfolio website about me, Nicholas Szeto."
   }
 ];
 
