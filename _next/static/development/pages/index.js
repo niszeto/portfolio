@@ -1169,10 +1169,12 @@ var Navbar = function Navbar(props) {
   }, _data_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"].map(function (navigationLink, index) {
     var redirect = navigationLink.redirect,
         text = navigationLink.text,
-        iconURI = navigationLink.iconURI; // might want to create a seperate component called NavbarLink.js
+        iconURI = navigationLink.iconURI,
+        target = navigationLink.target; // might want to create a seperate component called NavbarLink.js
 
     return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
       href: redirect,
+      target: target,
       key: index,
       id: index,
       className: "jsx-194421916",
@@ -1205,7 +1207,7 @@ var Navbar = function Navbar(props) {
     }, text)));
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
     styleId: "194421916",
-    css: ".navbar-container.jsx-194421916{margin:10px 0 10px 0;}.redirect-link-container.jsx-194421916{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.redirect-link-container.jsx-194421916 a.jsx-194421916{color:#687864;padding:5px;}.redirect-link-container.jsx-194421916 a.jsx-194421916:hover.jsx-194421916:not(.active){background-color:#5085a5;color:#f7f9fb;}.redirect-link.jsx-194421916{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9uaXN6ZXRvL0Rlc2t0b3AvZGV2ZWxvcG1lbnQvUG9ydGZvbGlvV2Vic2l0ZS9jb21wb25lbnRzL05hdmJhci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF1QlMsQUFNa0MsQUFHUixBQU9DLEFBT1csQUFLWixjQVhELE9BVmQsSUFpQmdCLENBTmhCLGFBT0EsbUNBZndCLEFBb0JILDhFQW5CckIsZUFvQkEiLCJmaWxlIjoiL1VzZXJzL25pc3pldG8vRGVza3RvcC9kZXZlbG9wbWVudC9Qb3J0Zm9saW9XZWJzaXRlL2NvbXBvbmVudHMvTmF2YmFyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IE5hdmJhckRhdGEgZnJvbSBcIi4uL2RhdGEvTmF2YmFyXCI7XG5pbXBvcnQgSWNvbiBmcm9tIFwiLi9JY29uXCI7XG5cbmNvbnN0IE5hdmJhciA9IHByb3BzID0+IHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT1cIm5hdmJhci1jb250YWluZXJcIj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwicmVkaXJlY3QtbGluay1jb250YWluZXJcIj5cbiAgICAgICAge05hdmJhckRhdGEubWFwKChuYXZpZ2F0aW9uTGluaywgaW5kZXgpID0+IHtcbiAgICAgICAgICBjb25zdCB7IHJlZGlyZWN0LCB0ZXh0LCBpY29uVVJJIH0gPSBuYXZpZ2F0aW9uTGluaztcblxuICAgICAgICAgIC8vIG1pZ2h0IHdhbnQgdG8gY3JlYXRlIGEgc2VwZXJhdGUgY29tcG9uZW50IGNhbGxlZCBOYXZiYXJMaW5rLmpzXG4gICAgICAgICAgcmV0dXJuIChcbiAgICAgICAgICAgIDxhIGhyZWY9e3JlZGlyZWN0fSBrZXk9e2luZGV4fSBpZD17aW5kZXh9PlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJlZGlyZWN0LWxpbmtcIj5cbiAgICAgICAgICAgICAgICA8SWNvbiBpY29uVVJJPXtpY29uVVJJfSAvPlxuICAgICAgICAgICAgICAgIDxoMSBjbGFzc05hbWU9XCJmb250XCI+e3RleHR9PC9oMT5cbiAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8L2E+XG4gICAgICAgICAgKTtcbiAgICAgICAgfSl9XG4gICAgICA8L2Rpdj5cblxuICAgICAgPHN0eWxlIGpzeD5cbiAgICAgICAge2BcbiAgICAgICAgICAubmF2YmFyLWNvbnRhaW5lciB7XG4gICAgICAgICAgICAvLyBmbGV4OiAyO1xuICAgICAgICAgICAgLy8gYmFja2dyb3VuZC1jb2xvcjogI2Y3ZjlmYjtcbiAgICAgICAgICAgIC8vIGJhY2tncm91bmQtY29sb3I6ICM4ZmMxZTM7XG4gICAgICAgICAgICBtYXJnaW46IDEwcHggMCAxMHB4IDA7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5yZWRpcmVjdC1saW5rLWNvbnRhaW5lciB7XG4gICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucmVkaXJlY3QtbGluay1jb250YWluZXIgYSB7XG4gICAgICAgICAgICAvLyBkaXNwbGF5OiBibG9jaztcbiAgICAgICAgICAgIC8vIGNvbG9yOiBibGFjaztcbiAgICAgICAgICAgIGNvbG9yOiAjNjg3ODY0O1xuICAgICAgICAgICAgcGFkZGluZzogNXB4O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5yZWRpcmVjdC1saW5rLWNvbnRhaW5lciBhOmhvdmVyOm5vdCguYWN0aXZlKSB7XG4gICAgICAgICAgICAvLyBiYWNrZ3JvdW5kLWNvbG9yOiAjZWZmMGYxO1xuICAgICAgICAgICAgLy8gYmFja2dyb3VuZC1jb2xvcjogIzhmYzFlMztcbiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICM1MDg1YTU7XG4gICAgICAgICAgICBjb2xvcjogI2Y3ZjlmYjtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucmVkaXJlY3QtbGluayB7XG4gICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgLy8ganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgIH1cbiAgICAgICAgYH1cbiAgICAgIDwvc3R5bGU+XG4gICAgPC9kaXY+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBOYXZiYXI7XG4iXX0= */\n/*@ sourceURL=/Users/niszeto/Desktop/development/PortfolioWebsite/components/Navbar.js */",
+    css: ".navbar-container.jsx-194421916{margin:10px 0 10px 0;}.redirect-link-container.jsx-194421916{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.redirect-link-container.jsx-194421916 a.jsx-194421916{color:#687864;padding:5px;}.redirect-link-container.jsx-194421916 a.jsx-194421916:hover.jsx-194421916:not(.active){background-color:#5085a5;color:#f7f9fb;}.redirect-link.jsx-194421916{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9uaXN6ZXRvL0Rlc2t0b3AvZGV2ZWxvcG1lbnQvUG9ydGZvbGlvV2Vic2l0ZS9jb21wb25lbnRzL05hdmJhci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF1QlMsQUFNa0MsQUFHUixBQU9DLEFBT1csQUFLWixjQVhELE9BVmQsSUFpQmdCLENBTmhCLGFBT0EsbUNBZndCLEFBb0JILDhFQW5CckIsZUFvQkEiLCJmaWxlIjoiL1VzZXJzL25pc3pldG8vRGVza3RvcC9kZXZlbG9wbWVudC9Qb3J0Zm9saW9XZWJzaXRlL2NvbXBvbmVudHMvTmF2YmFyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IE5hdmJhckRhdGEgZnJvbSBcIi4uL2RhdGEvTmF2YmFyXCI7XG5pbXBvcnQgSWNvbiBmcm9tIFwiLi9JY29uXCI7XG5cbmNvbnN0IE5hdmJhciA9IHByb3BzID0+IHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT1cIm5hdmJhci1jb250YWluZXJcIj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwicmVkaXJlY3QtbGluay1jb250YWluZXJcIj5cbiAgICAgICAge05hdmJhckRhdGEubWFwKChuYXZpZ2F0aW9uTGluaywgaW5kZXgpID0+IHtcbiAgICAgICAgICBjb25zdCB7IHJlZGlyZWN0LCB0ZXh0LCBpY29uVVJJLCB0YXJnZXQgfSA9IG5hdmlnYXRpb25MaW5rO1xuXG4gICAgICAgICAgLy8gbWlnaHQgd2FudCB0byBjcmVhdGUgYSBzZXBlcmF0ZSBjb21wb25lbnQgY2FsbGVkIE5hdmJhckxpbmsuanNcbiAgICAgICAgICByZXR1cm4gKFxuICAgICAgICAgICAgPGEgaHJlZj17cmVkaXJlY3R9IHRhcmdldD17dGFyZ2V0fSBrZXk9e2luZGV4fSBpZD17aW5kZXh9PlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJlZGlyZWN0LWxpbmtcIj5cbiAgICAgICAgICAgICAgICA8SWNvbiBpY29uVVJJPXtpY29uVVJJfSAvPlxuICAgICAgICAgICAgICAgIDxoMSBjbGFzc05hbWU9XCJmb250XCI+e3RleHR9PC9oMT5cbiAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8L2E+XG4gICAgICAgICAgKTtcbiAgICAgICAgfSl9XG4gICAgICA8L2Rpdj5cblxuICAgICAgPHN0eWxlIGpzeD5cbiAgICAgICAge2BcbiAgICAgICAgICAubmF2YmFyLWNvbnRhaW5lciB7XG4gICAgICAgICAgICAvLyBmbGV4OiAyO1xuICAgICAgICAgICAgLy8gYmFja2dyb3VuZC1jb2xvcjogI2Y3ZjlmYjtcbiAgICAgICAgICAgIC8vIGJhY2tncm91bmQtY29sb3I6ICM4ZmMxZTM7XG4gICAgICAgICAgICBtYXJnaW46IDEwcHggMCAxMHB4IDA7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5yZWRpcmVjdC1saW5rLWNvbnRhaW5lciB7XG4gICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucmVkaXJlY3QtbGluay1jb250YWluZXIgYSB7XG4gICAgICAgICAgICAvLyBkaXNwbGF5OiBibG9jaztcbiAgICAgICAgICAgIC8vIGNvbG9yOiBibGFjaztcbiAgICAgICAgICAgIGNvbG9yOiAjNjg3ODY0O1xuICAgICAgICAgICAgcGFkZGluZzogNXB4O1xuICAgICAgICAgIH1cblxuICAgICAgICAgIC5yZWRpcmVjdC1saW5rLWNvbnRhaW5lciBhOmhvdmVyOm5vdCguYWN0aXZlKSB7XG4gICAgICAgICAgICAvLyBiYWNrZ3JvdW5kLWNvbG9yOiAjZWZmMGYxO1xuICAgICAgICAgICAgLy8gYmFja2dyb3VuZC1jb2xvcjogIzhmYzFlMztcbiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICM1MDg1YTU7XG4gICAgICAgICAgICBjb2xvcjogI2Y3ZjlmYjtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAucmVkaXJlY3QtbGluayB7XG4gICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgLy8ganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgIH1cbiAgICAgICAgYH1cbiAgICAgIDwvc3R5bGU+XG4gICAgPC9kaXY+XG4gICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBOYXZiYXI7XG4iXX0= */\n/*@ sourceURL=/Users/niszeto/Desktop/development/PortfolioWebsite/components/Navbar.js */",
     __self: this
   }));
 };
@@ -1728,31 +1730,38 @@ __webpack_require__.r(__webpack_exports__);
 var NAVBAR_DATA = [{
   redirect: "./#about",
   text: "About",
-  iconURI: "./static/Navbar Icons/About.png"
+  iconURI: "./static/Navbar Icons/About.png",
+  target: "_self"
 }, {
   redirect: "./#skills",
   text: "Skills",
-  iconURI: "./static/Navbar Icons/Skills.png"
+  iconURI: "./static/Navbar Icons/Skills.png",
+  target: "_self"
 }, {
   redirect: "./#projects",
   text: "Projects",
-  iconURI: "./static/Navbar Icons/Projects.png"
+  iconURI: "./static/Navbar Icons/Projects.png",
+  target: "_self"
 }, {
   redirect: "./#experience",
   text: "Experience",
-  iconURI: "./static/Navbar Icons/Experience.png"
+  iconURI: "./static/Navbar Icons/Experience.png",
+  target: "_self"
 }, {
   redirect: "./#education",
   text: "Education",
-  iconURI: "./static/Navbar Icons/Education.png"
+  iconURI: "./static/Navbar Icons/Education.png",
+  target: "_self"
 }, {
   redirect: "./#contact",
   text: "Contact",
-  iconURI: "./static/Navbar Icons/Contact.png"
+  iconURI: "./static/Navbar Icons/Contact.png",
+  target: "_self"
 }, {
   redirect: "./static/Nicholas Szeto Resume.pdf",
   text: "Resume",
-  iconURI: "./static/Navbar Icons/Resume.png"
+  iconURI: "./static/Navbar Icons/Resume.png",
+  target: "_blank"
 }];
 /* harmony default export */ __webpack_exports__["default"] = (NAVBAR_DATA);
 
@@ -1768,12 +1777,6 @@ var NAVBAR_DATA = [{
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 var PROJECTS_DATA = [{
-  title: "Portfolio",
-  image: "./static/Project Screenshots/PortfolioWebsite.png",
-  links: [],
-  descriptions: ["Modular components which displays dynamically generated data", "Created with Next.js", "React Front End", "HTML5 semantic tags", "Custom CSS3 styling"],
-  summary: "A portfolio website about me, Nicholas Szeto."
-}, {
   title: "Chowin-Out",
   image: "./static/Project Screenshots/Chowinout.png",
   links: [{
@@ -1878,6 +1881,12 @@ var PROJECTS_DATA = [{
   }],
   descriptions: ["Able to handle simple http request such as, GET, HEAD, POST, PUT, DELETE", "Learned the inner workings and control flow of a web server"],
   summary: "A simple web server written in Java."
+}, {
+  title: "Portfolio",
+  image: "./static/Project Screenshots/PortfolioWebsite.png",
+  links: [],
+  descriptions: ["Modular components which displays dynamically generated data", "Created with Next.js", "React Front End", "HTML5 semantic tags", "Custom CSS3 styling"],
+  summary: "A portfolio website about me, Nicholas Szeto."
 }]; // title: "",
 // image: "",
 // links: [{ icon: "", redirect: "" }],
