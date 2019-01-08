@@ -5,13 +5,12 @@ const Avatar = props => {
 
   return (
     <div className="avatar-container">
-      <img src={imageURI} />
+      <img className="margin-ten" src={imageURI} />
       <strong className="font">{name}</strong>
-      <small className="font font-color">{caption}</small>
+      <em className="font font-color">{caption}</em>
       <style jsx>{`
         .avatar-container {
           display: flex;
-          // flex: 2;
           flex-direction: column;
           justify-content: center;
           align-items: center;
@@ -21,7 +20,6 @@ const Avatar = props => {
           height: 150px;
           width: 150px;
           border-radius: 50%;
-          margin: 10px;
         }
 
         strong {

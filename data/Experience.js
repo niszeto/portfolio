@@ -1,6 +1,6 @@
 const EXPERIENCE_DATA = [
   {
-    logo: "./static/SFSULogo.jpeg",
+    logo: "./static/Company Logo/SFSULogo.jpeg",
     name: "San Francisco State University",
     role: "PINC Mentor",
     website: "https://www.sfsu.edu/",
@@ -15,7 +15,7 @@ const EXPERIENCE_DATA = [
     state: "CA"
   },
   {
-    logo: "./static/SFSULogo.jpeg",
+    logo: "./static/Company Logo/SFSULogo.jpeg",
     name: "San Francisco State University",
     role: "Instructional Student Assistant ",
     website: "https://www.sfsu.edu/",

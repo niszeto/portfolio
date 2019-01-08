@@ -1,5 +1,5 @@
 {
-  "name": "portfoliowebsite",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "Nicholas Szeto Portfolio Website",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/niszeto/PortfolioWebsite.git"
+    "url": "git+https://github.com/niszeto/portfolio.git"
   },
   "author": "Nicholas Szeto",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/niszeto/PortfolioWebsite/issues"
+    "url": "https://github.com/niszeto/portfolio/issues"
   },
-  "homepage": "https://niszeto.github.io/PortfolioWebsite/",
+  "homepage": "https://niszeto.github.io/portfolio/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "next": "^7.0.2",

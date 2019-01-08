@@ -1,6 +1,6 @@
 const PROJECTS_DATA = [
   {
-    title: "Portfolio Website",
+    title: "Portfolio",
     image: "./static/Project Screenshots/PortfolioWebsite.png",
     links: [],
     descriptions: [
