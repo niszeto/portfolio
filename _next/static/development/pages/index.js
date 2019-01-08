@@ -94,7 +94,7 @@ var Avatar = function Avatar(props) {
       name = _data_Avatar__WEBPACK_IMPORTED_MODULE_2__["default"].name,
       caption = _data_Avatar__WEBPACK_IMPORTED_MODULE_2__["default"].caption;
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-4245606919" + " " + "avatar-container",
+    className: "jsx-1331236885" + " " + "avatar-container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -102,29 +102,29 @@ var Avatar = function Avatar(props) {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
     src: imageURI,
-    className: "jsx-4245606919",
+    className: "jsx-1331236885" + " " + "margin-ten",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("strong", {
-    className: "jsx-4245606919" + " " + "font",
+    className: "jsx-1331236885" + " " + "font",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, name), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("small", {
-    className: "jsx-4245606919" + " " + "font font-color",
+  }, name), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("em", {
+    className: "jsx-1331236885" + " " + "font font-color",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
   }, caption), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "4245606919",
-    css: ".avatar-container.jsx-4245606919{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:10px;}img.jsx-4245606919{height:150px;width:150px;border-radius:50%;margin:10px;}strong.jsx-4245606919{color:#31708e;font-size:30px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9uaXN6ZXRvL0Rlc2t0b3AvZGV2ZWxvcG1lbnQvUG9ydGZvbGlvV2Vic2l0ZS9jb21wb25lbnRzL0F2YXRhci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFVa0IsQUFHd0IsQUFRQSxBQU9DLGFBTkYsQ0FPRyxXQU5HLElBT3BCLGNBTmMsWUFDZCxtQkFWd0IsOEVBQ0MsbUdBQ0osNkZBQ1AsWUFDZCIsImZpbGUiOiIvVXNlcnMvbmlzemV0by9EZXNrdG9wL2RldmVsb3BtZW50L1BvcnRmb2xpb1dlYnNpdGUvY29tcG9uZW50cy9BdmF0YXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgQXZhdGFyRGF0YSBmcm9tIFwiLi4vZGF0YS9BdmF0YXJcIjtcblxuY29uc3QgQXZhdGFyID0gcHJvcHMgPT4ge1xuICBjb25zdCB7IGltYWdlVVJJLCBuYW1lLCBjYXB0aW9uIH0gPSBBdmF0YXJEYXRhO1xuXG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJhdmF0YXItY29udGFpbmVyXCI+XG4gICAgICA8aW1nIHNyYz17aW1hZ2VVUkl9IC8+XG4gICAgICA8c3Ryb25nIGNsYXNzTmFtZT1cImZvbnRcIj57bmFtZX08L3N0cm9uZz5cbiAgICAgIDxzbWFsbCBjbGFzc05hbWU9XCJmb250IGZvbnQtY29sb3JcIj57Y2FwdGlvbn08L3NtYWxsPlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAuYXZhdGFyLWNvbnRhaW5lciB7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICAvLyBmbGV4OiAyO1xuICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgICBtYXJnaW46IDEwcHg7XG4gICAgICAgIH1cbiAgICAgICAgaW1nIHtcbiAgICAgICAgICBoZWlnaHQ6IDE1MHB4O1xuICAgICAgICAgIHdpZHRoOiAxNTBweDtcbiAgICAgICAgICBib3JkZXItcmFkaXVzOiA1MCU7XG4gICAgICAgICAgbWFyZ2luOiAxMHB4O1xuICAgICAgICB9XG5cbiAgICAgICAgc3Ryb25nIHtcbiAgICAgICAgICBjb2xvcjogIzMxNzA4ZTtcbiAgICAgICAgICBmb250LXNpemU6IDMwcHg7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8L2Rpdj5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IEF2YXRhcjtcbiJdfQ== */\n/*@ sourceURL=/Users/niszeto/Desktop/development/PortfolioWebsite/components/Avatar.js */",
+    styleId: "1331236885",
+    css: ".avatar-container.jsx-1331236885{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:10px;}img.jsx-1331236885{height:150px;width:150px;border-radius:50%;}strong.jsx-1331236885{color:#31708e;font-size:30px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9uaXN6ZXRvL0Rlc2t0b3AvZGV2ZWxvcG1lbnQvUG9ydGZvbGlvV2Vic2l0ZS9jb21wb25lbnRzL0F2YXRhci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFVa0IsQUFHd0IsQUFPQSxBQU1DLGFBTEYsQ0FNRyxXQUxHLElBTXBCLGNBTEEsK0JBVHdCLDhFQUNDLG1HQUNKLDZGQUNQLFlBQ2QiLCJmaWxlIjoiL1VzZXJzL25pc3pldG8vRGVza3RvcC9kZXZlbG9wbWVudC9Qb3J0Zm9saW9XZWJzaXRlL2NvbXBvbmVudHMvQXZhdGFyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEF2YXRhckRhdGEgZnJvbSBcIi4uL2RhdGEvQXZhdGFyXCI7XG5cbmNvbnN0IEF2YXRhciA9IHByb3BzID0+IHtcbiAgY29uc3QgeyBpbWFnZVVSSSwgbmFtZSwgY2FwdGlvbiB9ID0gQXZhdGFyRGF0YTtcblxuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwiYXZhdGFyLWNvbnRhaW5lclwiPlxuICAgICAgPGltZyBjbGFzc05hbWU9XCJtYXJnaW4tdGVuXCIgc3JjPXtpbWFnZVVSSX0gLz5cbiAgICAgIDxzdHJvbmcgY2xhc3NOYW1lPVwiZm9udFwiPntuYW1lfTwvc3Ryb25nPlxuICAgICAgPGVtIGNsYXNzTmFtZT1cImZvbnQgZm9udC1jb2xvclwiPntjYXB0aW9ufTwvZW0+XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIC5hdmF0YXItY29udGFpbmVyIHtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgICBtYXJnaW46IDEwcHg7XG4gICAgICAgIH1cbiAgICAgICAgaW1nIHtcbiAgICAgICAgICBoZWlnaHQ6IDE1MHB4O1xuICAgICAgICAgIHdpZHRoOiAxNTBweDtcbiAgICAgICAgICBib3JkZXItcmFkaXVzOiA1MCU7XG4gICAgICAgIH1cblxuICAgICAgICBzdHJvbmcge1xuICAgICAgICAgIGNvbG9yOiAjMzE3MDhlO1xuICAgICAgICAgIGZvbnQtc2l6ZTogMzBweDtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICApO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgQXZhdGFyO1xuIl19 */\n/*@ sourceURL=/Users/niszeto/Desktop/development/PortfolioWebsite/components/Avatar.js */",
     __self: this
   }));
 };
@@ -1622,7 +1622,7 @@ var ABOUT_DATA = "I aspire to be the best software engineer possible. No matter 
 __webpack_require__.r(__webpack_exports__);
 var AVATAR_DATA = {
   name: "Nicholas Szeto",
-  imageURI: "./static/profile.png",
+  imageURI: "./static/Profile.jpg",
   caption: "Full Stack Developer"
 };
 /* harmony default export */ __webpack_exports__["default"] = (AVATAR_DATA);
@@ -1640,17 +1640,17 @@ var AVATAR_DATA = {
 __webpack_require__.r(__webpack_exports__);
 var CONTACT_DATA = [{
   text: "Email",
-  iconURI: "./static/MailIcon.png",
+  iconURI: "./static/Contact Icons/MailIcon.png",
   redirectLink: "mailto:NicholasYLSzeto@gmail.com",
   contactInformation: "NicholasYLSzeto@gmail.com"
 }, {
   text: "GitHub",
-  iconURI: "./static/GitHubIcon.png",
+  iconURI: "./static/Contact Icons/GitHubIcon.png",
   redirectLink: "https://github.com/niszeto/",
   contactInformation: "https://github.com/niszeto/"
 }, {
   text: "LinkedIn",
-  iconURI: "./static/LinkedInIcon.png",
+  iconURI: "./static/Contact Icons/LinkedInIcon.png",
   redirectLink: "https://www.linkedin.com/in/nicholas-szeto/",
   contactInformation: "https://www.linkedin.com/in/nicholas-szeto/"
 }];
@@ -1668,7 +1668,7 @@ var CONTACT_DATA = [{
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 var EDUCATION_DATA = [{
-  logo: "./static/SFSULogo.jpeg",
+  logo: "./static/Education Logo/SFSULogo.jpeg",
   name: "San Francisco State University",
   website: "https://www.sfsu.edu/",
   city: "San Francisco",
@@ -1692,7 +1692,7 @@ var EDUCATION_DATA = [{
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 var EXPERIENCE_DATA = [{
-  logo: "./static/SFSULogo.jpeg",
+  logo: "./static/Company Logo/SFSULogo.jpeg",
   name: "San Francisco State University",
   role: "PINC Mentor",
   website: "https://www.sfsu.edu/",
@@ -1702,7 +1702,7 @@ var EXPERIENCE_DATA = [{
   city: "San Francisco",
   state: "CA"
 }, {
-  logo: "./static/SFSULogo.jpeg",
+  logo: "./static/Company Logo/SFSULogo.jpeg",
   name: "San Francisco State University",
   role: "Instructional Student Assistant ",
   website: "https://www.sfsu.edu/",
@@ -1768,7 +1768,7 @@ var NAVBAR_DATA = [{
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 var PROJECTS_DATA = [{
-  title: "Portfolio Website",
+  title: "Portfolio",
   image: "./static/Project Screenshots/PortfolioWebsite.png",
   links: [],
   descriptions: ["Modular components which displays dynamically generated data", "Created with Next.js", "React Front End", "HTML5 semantic tags", "Custom CSS3 styling"],
