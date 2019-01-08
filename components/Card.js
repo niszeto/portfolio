@@ -15,7 +15,7 @@ const ExperienceCard = props => {
   } = props.data;
 
   return (
-    <div className="card-container margin-ten padding-ten box-shadow">
+    <div className="card-container margin-twenty padding-ten box-shadow">
       <Header
         imageURI={logo}
         establishment={name}

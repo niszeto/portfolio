@@ -23,7 +23,6 @@ const Project = props => {
           flex-direction: column;
           align-items: center;
           width: 80%;
-          padding: 10px;
         }
       `}</style>
     </div>
