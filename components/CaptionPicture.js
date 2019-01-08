@@ -2,7 +2,7 @@ const CaptionPicture = props => {
   const { imageURL, caption } = props;
 
   return (
-    <div className="caption-card-container">
+    <div className="caption-card-container box-shadow margin-ten padding-ten rounded-corner">
       <figure>
         <img src={imageURL} />
       </figure>
@@ -18,7 +18,6 @@ const CaptionPicture = props => {
           height: auto;
           max-height: 250px;
           width: 200px;
-          margin: 10px;
         }
         img {
           height: auto;

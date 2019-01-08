@@ -5,28 +5,30 @@ const ContactInformation = props => {
 
   return (
     <div className="contact-information-container">
-      <strong className="font header-font">{`${text} : `}</strong>
-      <IconButton redirectLink={redirectLink} iconURI={iconURI} />
-      <a className="font font-color" href={redirectLink}>
-        {contactInformation}
-      </a>
+      <div className="contact-information-content padding-ten">
+        <strong className="font header-font indent">{`${text} : `}</strong>
+        <IconButton redirectLink={redirectLink} iconURI={iconURI} />
+        <a className="font font-color" href={redirectLink}>
+          {contactInformation}
+        </a>
+      </div>
+      {/* <br /> */}
       <style jsx>{`
         .contact-information-container {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .contact-information-content {
           display: flex;
           justify-content: flex-start;
           align-items: center;
         }
 
-        strong {
-          margin-left: 10px;
-        }
-
         @media only screen and (max-width: 600px) {
-          .contact-information-container {
-            display: flex;
+          .contact-information-content {
             flex-direction: column;
             justify-content: center;
-            align-items: center;
           }
         }
       `}</style>

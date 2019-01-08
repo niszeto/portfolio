@@ -6,7 +6,7 @@ const Skills = props => {
   return (
     <div id="skills" className="skills-container">
       <Banner text="Skills" />
-      <div className="skills-content box-shadow">
+      <div className="skills-content margin-twenty padding-ten box-shadow">
         <SkillsList data={SkillData} />
       </div>
       <style jsx>{`
@@ -17,7 +17,6 @@ const Skills = props => {
         }
         .skills-content {
           display: flex;
-          margin: 20px;
           width: 80%;
           background-color: #f7f9fb;
         }

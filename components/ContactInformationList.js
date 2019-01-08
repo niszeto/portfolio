@@ -4,7 +4,7 @@ const ContactInformationList = props => {
   const { data } = props;
 
   return (
-    <div>
+    <div className="contact-information-list-container">
       {data.map((information, index) => {
         const { text, redirectLink, iconURI, contactInformation } = information;
 
@@ -19,6 +19,8 @@ const ContactInformationList = props => {
           />
         );
       })}
+
+      <style jsx>{``}</style>
     </div>
   );
 };
