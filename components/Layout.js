@@ -8,9 +8,7 @@ const Layout = ({ children }) => {
         <meta charSet="utf-8" />
         <title>Nicholas Szeto Portfolio</title>
       </Head>
-      <body>
-        <main>{children}</main>
-      </body>
+      <main>{children}</main>
       <style jsx global>{`
         * {
           box-sizing: border-box;
