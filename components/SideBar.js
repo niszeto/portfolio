@@ -5,33 +5,36 @@ import Footer from "./Footer";
 const SideBar = props => {
   return (
     <div className="side-bar-container box-shadow">
-      <Avatar />
-      <Navbar />
-      <Footer />
+      <div className="side-bar-content">
+        <Avatar />
+        <Navbar />
+        <Footer />
+      </div>
       <style jsx>{`
         .side-bar-container {
-          display: flex;
-          flex-direction: column;
-          justify-content: spaced-evenly;
           width: 26%;
-          // background-color: #f7f9fb;
-          background-color: #8fc1e3;
           position: fixed;
           height: 100%;
           overflow: auto;
         }
 
+        .side-bar-content {
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+          background-color: #8fc1e3;
+        }
+
         @media only screen and (max-width: 600px) {
           .side-bar-container {
             position: static;
-            display: flex;
-            flex: 1;
-            flex-direction: column;
-            justify-content: spaced-evenly;
             width: 100%;
-            height: 100%;
-            overflow: auto;
           }
+
+          // .side-bar-content {
+          //   display: flex;
+          //   flex-direction: column;
+          // }
         }
       `}</style>
     </div>
