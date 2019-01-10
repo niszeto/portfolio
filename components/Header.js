@@ -5,7 +5,7 @@ const Header = props => {
     <header className="padding-ten">
       <div className="establishment-container">
         <img src={imageURI} />
-        <a href={website}>
+        <a href={website} target="_blank">
           <h1 className="font header-font">{establishment}</h1>
         </a>
       </div>

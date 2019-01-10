@@ -3,7 +3,7 @@ const IconButton = props => {
 
   return (
     <div className="button">
-      <a href={redirectLink}>
+      <a href={redirectLink} target="_blank">
         <img src={iconURI} />
       </a>
 
