@@ -16,11 +16,11 @@ const Avatar = props => {
           align-items: center;
 ]        }
         img {
-          height: 150px;
-          width: 150px;
+          height: auto;
+          width: 125px;
           border-radius: 50%;
+          object-fit: contain;
         }
-
         strong {
           color: #31708e;
           font-size: 30px;

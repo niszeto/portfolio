@@ -14,7 +14,7 @@ const Banner = props => {
         }
 
         .banner-font {
-          font-size: 50px;
+          font-size: 40px;
           color: #f7f9fb;
           font-weight: 1;
           text-indent: 50px;
