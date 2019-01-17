@@ -141,7 +141,6 @@ const PROJECTS_DATA = [
   {
     title: "Tank Wars",
     image: "./static/Project Screenshots/TankWars.png",
-    // change image
     links: [
       {
         iconURI: "./static/Link Icons/GitHubIcon.png",
@@ -159,7 +158,6 @@ const PROJECTS_DATA = [
   {
     title: "Get Lazarus Out Of The Pit",
     image: "./static/Project Screenshots/GetLazarusOutOfThePit.png",
-    // change image
     links: [
       {
         iconURI: "./static/Link Icons/GitHubIcon.png",
@@ -184,7 +182,7 @@ const PROJECTS_DATA = [
       }
     ],
     descriptions: [
-      "Able to handle simple http request such as, GET, HEAD, POST, PUT, DELETE",
+      "Able to handle simple http request such as GET, HEAD, POST, PUT, DELETE",
       "Learned the inner workings and control flow of a web server"
     ],
     summary: "A simple web server written in Java."
