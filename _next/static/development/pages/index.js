@@ -15,53 +15,56 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Banner__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Banner */ "./components/Banner.js");
 /* harmony import */ var _data_About__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../data/About */ "./data/About.js");
+/* harmony import */ var _ParagraphsList__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ParagraphsList */ "./components/ParagraphsList.js");
 var _jsxFileName = "/Users/niszeto/Desktop/development/portfolio/components/About.js";
 
 
 
 
-var summary = "Determined individual for self and peer improvement";
+
 
 var About = function About(props) {
+  var summary = _data_About__WEBPACK_IMPORTED_MODULE_3__["default"].summary,
+      paragraphs = _data_About__WEBPACK_IMPORTED_MODULE_3__["default"].paragraphs;
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("article", {
     id: "about",
-    className: "jsx-1295082887" + " " + "about-container",
+    className: "jsx-3629100680" + " " + "about-container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Banner__WEBPACK_IMPORTED_MODULE_2__["default"], {
     text: "About",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
-    className: "jsx-1295082887" + " " + "about-content box-shadow",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    className: "jsx-1295082887" + " " + "font font-size header-font",
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("section", {
+    className: "jsx-3629100680" + " " + "about-content box-shadow margin-twenty padding-ten",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, summary), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: "jsx-1295082887" + " " + "font font-size font-color",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    className: "jsx-3629100680" + " " + "font font-size header-font margin-ten",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, _data_About__WEBPACK_IMPORTED_MODULE_3__["default"])), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "1295082887",
-    css: ".about-container.jsx-1295082887{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.about-content.jsx-1295082887{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex:1;-ms-flex:1;flex:1;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;width:85%;margin:20px;padding:10px;background-color:#f7f9fb;}h1.jsx-1295082887{margin:10px;}p.jsx-1295082887{margin:10px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9uaXN6ZXRvL0Rlc2t0b3AvZGV2ZWxvcG1lbnQvcG9ydGZvbGlvL2NvbXBvbmVudHMvQWJvdXQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBYWtCLEFBR3dCLEFBS0EsQUFVRCxBQUlBLFlBSGQsQUFJQSw4REFuQndCLEFBS2YsaUNBQ2UsNkNBTEgsaUNBTVQsVUFDRSxZQUNDLGFBQ1kseUJBUjNCLEFBU0EiLCJmaWxlIjoiL1VzZXJzL25pc3pldG8vRGVza3RvcC9kZXZlbG9wbWVudC9wb3J0Zm9saW8vY29tcG9uZW50cy9BYm91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBCYW5uZXIgZnJvbSBcIi4vQmFubmVyXCI7XG5pbXBvcnQgQWJvdXREYXRhIGZyb20gXCIuLi9kYXRhL0Fib3V0XCI7XG5cbmNvbnN0IHN1bW1hcnkgPSBcIkRldGVybWluZWQgaW5kaXZpZHVhbCBmb3Igc2VsZiBhbmQgcGVlciBpbXByb3ZlbWVudFwiO1xuXG5jb25zdCBBYm91dCA9IHByb3BzID0+IHtcbiAgcmV0dXJuIChcbiAgICA8YXJ0aWNsZSBpZD1cImFib3V0XCIgY2xhc3NOYW1lPVwiYWJvdXQtY29udGFpbmVyXCI+XG4gICAgICA8QmFubmVyIHRleHQ9XCJBYm91dFwiIC8+XG4gICAgICA8c2VjdGlvbiBjbGFzc05hbWU9XCJhYm91dC1jb250ZW50IGJveC1zaGFkb3dcIj5cbiAgICAgICAgPGgxIGNsYXNzTmFtZT1cImZvbnQgZm9udC1zaXplIGhlYWRlci1mb250XCI+e3N1bW1hcnl9PC9oMT5cbiAgICAgICAgPHAgY2xhc3NOYW1lPVwiZm9udCBmb250LXNpemUgZm9udC1jb2xvclwiPntBYm91dERhdGF9PC9wPlxuICAgICAgPC9zZWN0aW9uPlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAuYWJvdXQtY29udGFpbmVyIHtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgfVxuICAgICAgICAuYWJvdXQtY29udGVudCB7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICBmbGV4OiAxO1xuICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgICAgICAgd2lkdGg6IDg1JTtcbiAgICAgICAgICBtYXJnaW46IDIwcHg7XG4gICAgICAgICAgcGFkZGluZzogMTBweDtcbiAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjdmOWZiO1xuICAgICAgICB9XG5cbiAgICAgICAgaDEge1xuICAgICAgICAgIG1hcmdpbjogMTBweDtcbiAgICAgICAgfVxuXG4gICAgICAgIHAge1xuICAgICAgICAgIG1hcmdpbjogMTBweDtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvYXJ0aWNsZT5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IEFib3V0O1xuIl19 */\n/*@ sourceURL=/Users/niszeto/Desktop/development/portfolio/components/About.js */",
+  }, summary), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_ParagraphsList__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    data: paragraphs,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    styleId: "3629100680",
+    css: ".about-container.jsx-3629100680{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.about-content.jsx-3629100680{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex:1;-ms-flex:1;flex:1;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;width:80%;background-color:#f7f9fb;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9uaXN6ZXRvL0Rlc2t0b3AvZGV2ZWxvcG1lbnQvcG9ydGZvbGlvL2NvbXBvbmVudHMvQWJvdXQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBY2tCLEFBR3dCLEFBS0EsMEVBSlMsQUFLZixpQ0FDZSw2Q0FMSCxpQ0FNVCxVQUNlLHlCQUMzQix5QkFQQSIsImZpbGUiOiIvVXNlcnMvbmlzemV0by9EZXNrdG9wL2RldmVsb3BtZW50L3BvcnRmb2xpby9jb21wb25lbnRzL0Fib3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEJhbm5lciBmcm9tIFwiLi9CYW5uZXJcIjtcbmltcG9ydCBBYm91dERhdGEgZnJvbSBcIi4uL2RhdGEvQWJvdXRcIjtcbmltcG9ydCBQYXJhZ3JhcGhzTGlzdCBmcm9tIFwiLi9QYXJhZ3JhcGhzTGlzdFwiO1xuXG5jb25zdCBBYm91dCA9IHByb3BzID0+IHtcbiAgY29uc3QgeyBzdW1tYXJ5LCBwYXJhZ3JhcGhzIH0gPSBBYm91dERhdGE7XG5cbiAgcmV0dXJuIChcbiAgICA8YXJ0aWNsZSBpZD1cImFib3V0XCIgY2xhc3NOYW1lPVwiYWJvdXQtY29udGFpbmVyXCI+XG4gICAgICA8QmFubmVyIHRleHQ9XCJBYm91dFwiIC8+XG4gICAgICA8c2VjdGlvbiBjbGFzc05hbWU9XCJhYm91dC1jb250ZW50IGJveC1zaGFkb3cgbWFyZ2luLXR3ZW50eSBwYWRkaW5nLXRlblwiPlxuICAgICAgICA8aDEgY2xhc3NOYW1lPVwiZm9udCBmb250LXNpemUgaGVhZGVyLWZvbnQgbWFyZ2luLXRlblwiPntzdW1tYXJ5fTwvaDE+XG4gICAgICAgIDxQYXJhZ3JhcGhzTGlzdCBkYXRhPXtwYXJhZ3JhcGhzfSAvPlxuICAgICAgPC9zZWN0aW9uPlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAuYWJvdXQtY29udGFpbmVyIHtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgfVxuICAgICAgICAuYWJvdXQtY29udGVudCB7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICBmbGV4OiAxO1xuICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgICAgICAgd2lkdGg6IDgwJTtcbiAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjdmOWZiO1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9hcnRpY2xlPlxuICApO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgQWJvdXQ7XG4iXX0= */\n/*@ sourceURL=/Users/niszeto/Desktop/development/portfolio/components/About.js */",
     __self: this
   }));
 };
@@ -1233,6 +1236,93 @@ var Navbar = function Navbar(props) {
 
 /***/ }),
 
+/***/ "./components/Paragraph.js":
+/*!*********************************!*\
+  !*** ./components/Paragraph.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/niszeto/Desktop/development/portfolio/components/Paragraph.js";
+
+
+var Paragraph = function Paragraph(props) {
+  var paragraph = props.paragraph;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "paragraph-container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "paragraph-content padding-ten",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "font font-size font-color",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, paragraph)));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Paragraph);
+
+/***/ }),
+
+/***/ "./components/ParagraphsList.js":
+/*!**************************************!*\
+  !*** ./components/ParagraphsList.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Paragraph__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Paragraph */ "./components/Paragraph.js");
+var _jsxFileName = "/Users/niszeto/Desktop/development/portfolio/components/ParagraphsList.js";
+
+
+
+var ParagraphsList = function ParagraphsList(props) {
+  var data = props.data;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "paragraph-list-container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, data.map(function (paragraph, index) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Paragraph__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      paragraph: paragraph,
+      id: index,
+      key: index,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9
+      },
+      __self: this
+    });
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (ParagraphsList);
+
+/***/ }),
+
 /***/ "./components/ProjectCard.js":
 /*!***********************************!*\
   !*** ./components/ProjectCard.js ***!
@@ -1632,7 +1722,10 @@ var SkillsList = function SkillsList(props) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-var ABOUT_DATA = "I aspire to be the best software engineer possible. No matter the situation I keep in mind to be consistent in who I am and everything I set my mind on. Always up for self and peer improvement no matter the scale. Anything significant wasn't built in a day, so my philosophy is to be as dependable as possible to build and improve one small step at a time.";
+var ABOUT_DATA = {
+  summary: "Determined individual for self and peer improvement",
+  paragraphs: ["As a software developer, I love problem solving and like to create anything that would bring any amount of impact to others. Whether or not that impact is very miniscule or not, I make sure anything that I am involved with is up to as high standards as possible while having the mindset to be improve.", "I aspire to be the best software engineer possible. No matter the situation I keep in mind to be consistent in who I am and everything I set my mind on. Always up for self and peer improvement no matter the scale. Anything significant wasn't built in a day, so my philosophy is to be as dependable as possible to build and improve one small step at a time."]
+};
 /* harmony default export */ __webpack_exports__["default"] = (ABOUT_DATA);
 
 /***/ }),
@@ -1879,7 +1972,6 @@ var PROJECTS_DATA = [{
 }, {
   title: "Tank Wars",
   image: "./static/Project Screenshots/TankWars.png",
-  // change image
   links: [{
     iconURI: "./static/Link Icons/GitHubIcon.png",
     redirectLink: "https://github.com/niszeto/TankWarsGame/"
@@ -1889,7 +1981,6 @@ var PROJECTS_DATA = [{
 }, {
   title: "Get Lazarus Out Of The Pit",
   image: "./static/Project Screenshots/GetLazarusOutOfThePit.png",
-  // change image
   links: [{
     iconURI: "./static/Link Icons/GitHubIcon.png",
     redirectLink: "https://github.com/niszeto/GetLazarusOutOfThePitGame/"
@@ -1903,7 +1994,7 @@ var PROJECTS_DATA = [{
     iconURI: "./static/Link Icons/GitHubIcon.png",
     redirectLink: "https://github.com/tmytrn/Web-Server/"
   }],
-  descriptions: ["Able to handle simple http request such as, GET, HEAD, POST, PUT, DELETE", "Learned the inner workings and control flow of a web server"],
+  descriptions: ["Able to handle simple http request such as GET, HEAD, POST, PUT, DELETE", "Learned the inner workings and control flow of a web server"],
   summary: "A simple web server written in Java."
 }, {
   title: "Portfolio",
