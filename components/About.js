@@ -1,15 +1,16 @@
 import Banner from "./Banner";
 import AboutData from "../data/About";
-
-const summary = "Determined individual for self and peer improvement";
+import ParagraphsList from "./ParagraphsList";
 
 const About = props => {
+  const { summary, paragraphs } = AboutData;
+
   return (
     <article id="about" className="about-container">
       <Banner text="About" />
-      <section className="about-content box-shadow">
-        <h1 className="font font-size header-font">{summary}</h1>
-        <p className="font font-size font-color">{AboutData}</p>
+      <section className="about-content box-shadow margin-twenty padding-ten">
+        <h1 className="font font-size header-font margin-ten">{summary}</h1>
+        <ParagraphsList data={paragraphs} />
       </section>
       <style jsx>{`
         .about-container {
@@ -21,18 +22,8 @@ const About = props => {
           display: flex;
           flex: 1;
           flex-direction: column;
-          width: 85%;
-          margin: 20px;
-          padding: 10px;
+          width: 80%;
           background-color: #f7f9fb;
-        }
-
-        h1 {
-          margin: 10px;
-        }
-
-        p {
-          margin: 10px;
         }
       `}</style>
     </article>

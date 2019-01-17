@@ -13,6 +13,13 @@ import Skills from "../components/Skills";
 // background-color: #8fc1e3;
 // background-color: #f7f9fb;
 
+// background-color: #5680e9;
+// background-color: #84ceeb;
+// background-color: #5ab9ea;
+// background-color: #c1c8e4;
+// background-color: #8860d0;
+// color:#FEFEFD
+
 const Index = props => {
   return (
     <Layout>
