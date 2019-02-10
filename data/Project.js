@@ -81,11 +81,10 @@ const PROJECTS_DATA = [
   {
     title: "SMS Bot",
     image: "./static/Project Screenshots/SMSBot.png",
-    // change image
     links: [
       {
         iconURI: "./static/Link Icons/GitHubIcon.png",
-        redirectLink: "https://github.com/huy9997/SMSPythonBot/"
+        redirectLink: "https://github.com/huy9997/SMSBot/"
       },
       {
         iconURI: "./static/Link Icons/ExpoIcon.png",
@@ -98,6 +97,27 @@ const PROJECTS_DATA = [
     ],
     summary:
       "A mobile application to allow for organizing and gathering people for events with messages. "
+  },
+
+  {
+    title: "Random-Pokemon",
+    image: "./static/Project Screenshots/Random-Pokemon.png",
+    links: [
+      {
+        iconURI: "./static/Link Icons/GitHubIcon.png",
+        redirectLink: "https://github.com/niszeto/random-pokemon/"
+      },
+      {
+        iconURI: "./static/Link Icons/ExpoIcon.png",
+        redirectLink: "https://expo.io/@niszeto/random-pokemon/"
+      }
+    ],
+    descriptions: [
+      "Written in React Native",
+      "Designed a mock ups and created the UI of the mobile app"
+    ],
+    summary:
+      "An mobile app that displays a random pokemon and its information. The generation of the random range can be changed through the settings. "
   },
   {
     title: "Daug",
