@@ -7,7 +7,8 @@ const Banner = props => {
       <style jsx>{`
         .banner-container {
           background: #31708e;
-          height: 100px;
+          // height: 100px;
+          height: 15vh;
           width: 100%;
           display: flex;
           align-items: center;

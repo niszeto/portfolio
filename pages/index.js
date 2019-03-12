@@ -23,20 +23,26 @@ import Skills from "../components/Skills";
 const Index = props => {
   return (
     <Layout>
-      <Sidebar />
-      <article className="content-container">
-        <About />
-        <Skills />
-        <Projects />
-        <Experience />
-        <Education />
-        <Contact />
-      </article>
+      <div className="page-content-container">
+        <Sidebar />
+        <article className="content-container">
+          <About />
+          <Skills />
+          <Projects />
+          <Experience />
+          <Education />
+          <Contact />
+        </article>
+      </div>
+
       <style jsx>{`
+        .page-content-container {
+          height: 100%;
+          overflow-y: scroll;
+          scroll-behavior: smooth;
+          scroll-snap-type: y mandatory;
+        }
         .content-container {
-          // display: flex;
-          // flex: 1;
-          // flex-direction: column;
           margin-left: 26%;
         }
 

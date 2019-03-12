@@ -21,7 +21,7 @@ class Layout extends React.Component {
           <meta charSet="utf-8" />
           <title>Nicholas Szeto Portfolio</title>
         </Head>
-        <main>{children}</main>
+        <main className="page-container">{children}</main>
         <style jsx global>{`
           * {
             box-sizing: border-box;
@@ -31,6 +31,11 @@ class Layout extends React.Component {
 
           body {
             background-image: linear-gradient(#8fc1e3, #f7f9fb);
+          }
+
+          .page-container {
+            overflow: hidden;
+            height: 100vh;
           }
 
           main {
