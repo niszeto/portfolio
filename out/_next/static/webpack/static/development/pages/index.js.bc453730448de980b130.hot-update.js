@@ -10,6 +10,24 @@ webpackHotUpdate("static/development/pages/index.js",{
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 var PROJECTS_DATA = [{
+  title: "Nixs Image Finder",
+  image: "./static/Project Screenshots/NixsImageFinder.jpg",
+  links: [{
+    iconURI: "./static/Link Icons/WebsiteIcon.png",
+    redirectLink: "https://nixsimagefinder.netlify.com/"
+  }],
+  descriptions: ["Technologies used are React, JavaScript, CSS3, HTML5", "React Hooks and Context API used for modularity and app level global state", "Custom word search correcting algorithm to guess incorrectly spelled words", "Completed in the span of two days for a challenge"],
+  summary: "A simple image search website with custom spell checking algorithm"
+}, {
+  title: "Nixs Site",
+  image: "./static/Project Screenshots/NixsSite.jpg",
+  links: [{
+    iconURI: "./static/Link Icons/WebsiteIcon.png",
+    redirectLink: "http://www.nixs.site/"
+  }],
+  descriptions: ["Technologies used are React, Node.js, PostgreSQL, JavaScript, CSS3, HTML5", "Hosted website on AWS EC2 instance and PostgreSQL database on RDS instance", "Google maps to allow for location pinning of visited restaurants", "Infinite Scrolling for different posts and carousel for multiple images per post"],
+  summary: "Personal food image blog website to allow for creation of posts and sharing of thoughts and pictures from restaurants."
+}, {
   title: "Chowin-Out",
   image: "./static/Project Screenshots/Chowinout.png",
   links: [{
@@ -37,7 +55,7 @@ var PROJECTS_DATA = [{
     iconURI: "./static/Link Icons/HerokuIcon.png",
     redirectLink: "http://sos-games-uno.herokuapp.com/"
   }],
-  descriptions: ["Node.js Back End ", "EJS Front End", "Bootstrap styling", "Express server", "PostgreSQL as the relation database", "Socket.io for in game chat", "Passport for login, sign up, and authentication"],
+  descriptions: ["Node.js Back End ", "EJS Front End", "Bootstrap styling", "Express server", "PostgreSQL as the SQL relational database", "Socket.io for in game chat", "Passport for login, sign up, and authentication"],
   summary: "A web application of the popular card game, Uno. "
 }, {
   title: "Crypto-Brite",
@@ -54,10 +72,9 @@ var PROJECTS_DATA = [{
 }, {
   title: "SMS Bot",
   image: "./static/Project Screenshots/SMSBot.png",
-  // change image
   links: [{
     iconURI: "./static/Link Icons/GitHubIcon.png",
-    redirectLink: "https://github.com/huy9997/SMSPythonBot/"
+    redirectLink: "https://github.com/huy9997/SMSBot/"
   }, {
     iconURI: "./static/Link Icons/ExpoIcon.png",
     redirectLink: "https://expo.io/@niszeto/SMSBotApp/"
@@ -141,4 +158,4 @@ var PROJECTS_DATA = [{
 /***/ })
 
 })
-//# sourceMappingURL=index.js.035e3c367dcbef9cedba.hot-update.js.map
+//# sourceMappingURL=index.js.bc453730448de980b130.hot-update.js.map
