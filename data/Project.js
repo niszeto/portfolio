@@ -1,5 +1,40 @@
 const PROJECTS_DATA = [
   {
+    title: "Nixs Image Finder",
+    image: "./static/Project Screenshots/NixsImageFinder.jpg",
+    links: [
+      {
+        iconURI: "./static/Link Icons/WebsiteIcon.png",
+        redirectLink: "https://nixsimagefinder.netlify.com/"
+      }
+    ],
+    descriptions: [
+      "Technologies used were React, JavaScript, CSS3, HTML5",
+      "React Hooks and Context API used for modularity and app level global state",
+      "Custom word search correcting algorithm to guess incorrectly spelled words",
+      "Completed in the span of two days for a challenge"
+    ],
+    summary: "An image search website with custom spell checking algorithm"
+  },
+  {
+    title: "Nixs Site",
+    image: "./static/Project Screenshots/NixsSite.jpg",
+    links: [
+      {
+        iconURI: "./static/Link Icons/WebsiteIcon.png",
+        redirectLink: "http://www.nixs.site/"
+      }
+    ],
+    descriptions: [
+      "Technologies used were React, Node.js, PostgreSQL, JavaScript, CSS3, HTML5",
+      "Hosted website on AWS EC2 instance and PostgreSQL database on RDS instance",
+      "Google maps to allow for location pinning of visited restaurants",
+      "Infinite Scrolling for different posts and carousel for multiple images per post"
+    ],
+    summary:
+      "Personal food image blog website to allow for creation of posts and sharing of thoughts and pictures from restaurants."
+  },
+  {
     title: "Chowin-Out",
     image: "./static/Project Screenshots/Chowinout.png",
     links: [
@@ -51,7 +86,7 @@ const PROJECTS_DATA = [
       "EJS Front End",
       "Bootstrap styling",
       "Express server",
-      "PostgreSQL as the relation database",
+      "PostgreSQL as the SQL relational database",
       "Socket.io for in game chat",
       "Passport for login, sign up, and authentication"
     ],
