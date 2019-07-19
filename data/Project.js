@@ -6,6 +6,10 @@ const PROJECTS_DATA = [
       {
         iconURI: "./static/Link Icons/WebsiteIcon.png",
         redirectLink: "https://nixsimagefinder.netlify.com/"
+      },
+      {
+        iconURI: "./static/Link Icons/GitHubIcon.png",
+        redirectLink: "https://github.com/niszeto/appstem_web_prototype"
       }
     ],
     descriptions: [
