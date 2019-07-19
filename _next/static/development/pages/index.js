@@ -2034,6 +2034,9 @@ var PROJECTS_DATA = [{
   links: [{
     iconURI: "./static/Link Icons/WebsiteIcon.png",
     redirectLink: "https://nixsimagefinder.netlify.com/"
+  }, {
+    iconURI: "./static/Link Icons/GitHubIcon.png",
+    redirectLink: "https://github.com/niszeto/appstem_web_prototype"
   }],
   descriptions: ["Technologies used were React, JavaScript, CSS3, HTML5", "React Hooks and Context API used for modularity and app level global state", "Custom word search correcting algorithm to guess incorrectly spelled words", "Completed in the span of two days for a challenge"],
   summary: "An image search website with custom spell checking algorithm"
